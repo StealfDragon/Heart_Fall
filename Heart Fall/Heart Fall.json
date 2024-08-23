@@ -1407,20 +1407,27 @@
       {
         "alwaysLoaded": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "file": "egypt_tomb_v1.1.png",
         "kind": "image",
         "metadata": "",
         "name": "egypt_tomb_v1.1.png",
 =======
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
         "file": "../../../../Downloads/craftpix-net-770468-free-knight-character-sprites-pixel-art/Knight_1/Attack 1.png",
         "kind": "image",
         "metadata": "",
         "name": "../../../../Downloads/craftpix-net-770468-free-knight-character-sprites-pixel-art/Knight_1/Attack 1.png",
+<<<<<<< HEAD
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
         "smoothed": false,
         "userAdded": true
       },
       {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "disablePreload": false,
         "file": "Heart Fall.json",
@@ -1444,6 +1451,8 @@
         "metadata": "",
         "name": "Heart Fall Map 1.tmj",
 =======
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
         "alwaysLoaded": false,
         "file": "assets/.._.._.._.._Downloads_craftpix-net-770468-free-knight-character-sprites-pixel-art_Knight_1_Attack 1.png",
         "kind": "image",
@@ -3372,7 +3381,19 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite72",
         "smoothed": false,
+<<<<<<< HEAD
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Run.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Run.png\",\"extension\":\".png\"}",
+        "name": "Run.png",
+        "smoothed": false,
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
         "userAdded": true
       }
     ],
@@ -5171,10 +5192,14 @@
         "gridAlpha": 0.8,
         "snap": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
         "zoomFactor": 0.08368335979684777,
 =======
         "zoomFactor": 0.3259601202601349,
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+        "zoomFactor": 0.26714443020530176,
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
         "windowMask": false
       },
       "objectsGroups": [
@@ -5353,9 +5378,24 @@
           "name": "FadeObject",
           "persistentUuid": "cfbf0925-7974-44dc-9ec5-e7db518445b7",
           "width": 0,
-          "x": -1150,
+          "x": -448,
           "y": -176,
           "zOrder": 10000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2560,
+          "layer": "",
+          "name": "CameraRoom",
+          "persistentUuid": "bf18aaa7-2f1e-4106-a397-dc00d5853348",
+          "width": 11712,
+          "x": 0,
+          "y": -1840,
+          "zOrder": -1000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5460,7 +5500,7 @@
           "name": "LevelMap",
           "persistentUuid": "c18fbb69-466e-4f60-a608-8faedd863c81",
           "width": 11712,
-          "x": 15000,
+          "x": 0,
           "y": -1840,
           "zOrder": 1,
           "numberProperties": [],
@@ -5470,14 +5510,43 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 733,
+          "height": 704,
+          "layer": "BG1",
+          "name": "BG1",
+          "persistentUuid": "dd0c7a57-ec11-4f14-8d0b-68da896cf707",
+          "width": 9728,
+          "x": -768,
+          "y": -304,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 704,
+          "layer": "BG2",
+          "name": "BG2",
+          "persistentUuid": "1a71c53a-d3a0-4e64-aff0-5de1730aed0e",
+          "width": 6643,
+          "x": -848,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
           "layer": "",
           "name": "BossRoom",
           "persistentUuid": "1f3e5e6b-3de6-45fb-a929-6ef948808153",
-          "width": 1918,
-          "x": 7690,
-          "y": 1887,
+          "width": 1280,
+          "x": 10432,
+          "y": -1904,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5506,7 +5575,7 @@
           "name": "BitmapGameOver",
           "persistentUuid": "1d4ef20d-5220-4d6f-bb7f-e27993259f36",
           "width": 0,
-          "x": -1200,
+          "x": -512,
           "y": 144,
           "zOrder": 100001,
           "numberProperties": [],
@@ -5524,6 +5593,36 @@
           "x": 9920,
           "y": -1776,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Barrier",
+          "persistentUuid": "78108a89-b153-4ba8-aef6-10e4a6c1fbd4",
+          "width": 0,
+          "x": 10432,
+          "y": -1200,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Barrier",
+          "persistentUuid": "30e1da76-5da6-425a-8147-55b8cffb31ca",
+          "width": 0,
+          "x": 11584,
+          "y": -1200,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5551,8 +5650,8 @@
           "name": "Skeleton",
           "persistentUuid": "4698af63-2465-48c0-92f2-8fd25ba55e5e",
           "width": 0,
-          "x": 1866,
-          "y": -452,
+          "x": 2560,
+          "y": -128,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5566,8 +5665,8 @@
           "name": "Ghost",
           "persistentUuid": "a337bb12-6f72-4d39-869a-c1a2d16a3eb0",
           "width": 0,
-          "x": 5477,
-          "y": 27,
+          "x": 5312,
+          "y": -624,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5581,8 +5680,8 @@
           "name": "Ghost",
           "persistentUuid": "644119d9-2efc-43bd-bac2-b1762b15b923",
           "width": 0,
-          "x": 8268,
-          "y": -754,
+          "x": 8192,
+          "y": -1520,
           "zOrder": 10003,
           "numberProperties": [],
           "stringProperties": [],
@@ -5596,8 +5695,8 @@
           "name": "Wolf",
           "persistentUuid": "d56e324e-d5fc-4d80-8de7-7f8997d440d8",
           "width": 0,
-          "x": 4926,
-          "y": -774,
+          "x": 3136,
+          "y": -368,
           "zOrder": 10005,
           "numberProperties": [],
           "stringProperties": [],
@@ -5611,8 +5710,8 @@
           "name": "Wolf",
           "persistentUuid": "e4fb66d7-f19b-4903-9311-0cb082ce2f9e",
           "width": 0,
-          "x": 8754,
-          "y": 1543,
+          "x": 6912,
+          "y": -1136,
           "zOrder": 10006,
           "numberProperties": [],
           "stringProperties": [],
@@ -5671,8 +5770,8 @@
           "name": "Skeleton",
           "persistentUuid": "876f2d8f-dd4b-4b44-affa-12235c768080",
           "width": 0,
-          "x": 1941,
-          "y": 1125,
+          "x": 1152,
+          "y": 320,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5686,8 +5785,8 @@
           "name": "Ghost",
           "persistentUuid": "8108aeab-3532-4bb4-a983-3acb23340dda",
           "width": 0,
-          "x": 2393,
-          "y": 1809,
+          "x": 4160,
+          "y": -176,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5701,8 +5800,8 @@
           "name": "Skeleton",
           "persistentUuid": "61797f98-20c4-4492-9b02-b0bc99c49a25",
           "width": 0,
-          "x": 7325,
-          "y": 293,
+          "x": 5775,
+          "y": -512,
           "zOrder": 10007,
           "numberProperties": [],
           "stringProperties": [],
@@ -5856,7 +5955,10 @@
           "angle": 0,
           "customSize": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
           "height": 64,
           "layer": "",
           "name": "DeathPit",
@@ -6093,13 +6195,16 @@
           "y": 144,
           "zOrder": 100001,
           "customSize": true,
+<<<<<<< HEAD
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
           "height": 384,
           "layer": "DeathEffect",
           "name": "Pit",
           "persistentUuid": "39e949b9-2b50-4cfd-87c1-e1d602b0213a",
           "width": 832,
-          "x": -1500,
+          "x": -828,
           "y": 628,
           "zOrder": 100003,
           "numberProperties": [],
@@ -6109,6 +6214,7 @@
         {
           "angle": 0,
           "customSize": true,
+<<<<<<< HEAD
 <<<<<<< HEAD
           "depth": 0,
           "height": 3999.9999999999995,
@@ -6120,6 +6226,8 @@
           "x": -100,
           "y": -1110,
 =======
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
           "depth": 1,
           "height": 321,
           "keepRatio": true,
@@ -6129,11 +6237,15 @@
           "width": 520,
           "x": -57,
           "y": 347,
+<<<<<<< HEAD
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
           "zOrder": 100011,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
 <<<<<<< HEAD
         },
         {
@@ -6154,6 +6266,8 @@
           "initialVariables": []
 =======
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
         }
       ],
       "objects": [
@@ -9118,6 +9232,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "assetStoreId": "",
           "name": "LevelMap2",
           "type": "TileMap::TileMap",
@@ -9162,6 +9277,8 @@
             "outlineSize": 1
           }
 =======
+=======
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Hero",
@@ -10383,7 +10500,7 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08333333333333333,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -11849,7 +11966,32 @@
               ]
             }
           ]
+<<<<<<< HEAD
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
         }
       ],
       "objectsFolderStructure": {
@@ -11923,6 +12065,12 @@
             "objectName": "CameraRoom"
           },
           {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
             "objectName": "HeroAttackHitbox"
           },
           {
@@ -11972,6 +12120,7 @@
           },
           {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "objectName": "LevelMap2"
           },
           {
@@ -11979,6 +12128,9 @@
 =======
             "objectName": "Hero"
 >>>>>>> e193ba89a0855adc20bf730f06174112dfb09dc9
+=======
+            "objectName": "Hero"
+>>>>>>> bacb112f1ad114a0e85d8ede1e947bc3237b0d76
           }
         ]
       },
