@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -5263,6 +5263,16 @@
         "metadata": "",
         "name": "egypt_tomb_v1.1.png",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "HeartFallFootstepSound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "HeartFallFootstepSound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],
