@@ -1,0 +1,39 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "."
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+        {
+            "color": "#ffb30503",
+            "drawFill": true,
+            "id": 1,
+            "members": [
+                {
+                    "name": "Platform",
+                    "type": "string",
+                    "value": "Platform"
+                }
+            ],
+            "name": "Platform",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ]
+        }
+    ]
+}
