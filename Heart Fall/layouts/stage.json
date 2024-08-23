@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.0732869888207868,
+    "zoomFactor": 0.15714378247371039,
     "windowMask": false
   },
   "objectsGroups": [
@@ -338,8 +338,8 @@
       "name": "BossRoom",
       "persistentUuid": "1f3e5e6b-3de6-45fb-a929-6ef948808153",
       "width": 1920,
-      "x": 7503,
-      "y": 1936,
+      "x": 7501,
+      "y": 1834,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -453,7 +453,7 @@
       "content": {
         "tilemapJsonFile": "Heart Fall Map 1.tmj",
         "tilesetJsonFile": "",
-        "tilemapAtlasImage": "egypt_tomb_v1.2.png",
+        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
         "displayMode": "all",
         "layerIndex": 0,
         "animationSpeedScale": 1,
