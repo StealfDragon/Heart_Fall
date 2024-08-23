@@ -1,0 +1,47 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Heart Fall Map 1.tmj": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 0.23,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1671.7391304347825,
+                "y": 721.7391304347827
+            }
+        },
+        "Heart Fall Map 1.tmj#Main stuff": {
+            "scaleInDock": 0.8142
+        },
+        "assets/Level1.json": {
+            "scale": 0.47,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 869.1489361702128,
+                "y": 385.1063829787234
+            }
+        },
+        "assets/Level1.json#Tiles": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/Users/Cassian/Downloads/School - Local/CMPM80K/GDevelop School Projects/Heart-Fall/Heart Fall",
+    "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
+    "map.lastUsedFormat": "json",
+    "openFiles": [
+    ],
+    "project": "HeartFallMapProject.tiled-project",
+    "property.type": "Platform",
+    "recentFiles": [
+    ]
+}
