@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -5244,6 +5244,16 @@
         "metadata": "",
         "name": "egypt_tomb_v1.2.png",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Loopable-Heart-Fall-Theme-Demo.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Loopable-Heart-Fall-Theme-Demo.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],
