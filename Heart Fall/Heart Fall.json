@@ -8124,11 +8124,11 @@
             "tilemapJsonFile": "Heart Fall Map 1.tmj",
             "tilesetJsonFile": "",
             "tilemapAtlasImage": "egypt_tomb_v1.1.png",
-            "displayMode": "visible",
+            "displayMode": "all",
             "layerIndex": 0,
             "levelIndex": 0,
             "animationSpeedScale": 1,
-            "animationFps": 4
+            "animationFps": 0
           }
         },
         {
