@@ -27,13 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 621,
+      "depth": 1,
+      "height": 650,
       "layer": "",
       "name": "Credits",
       "persistentUuid": "da9f66dc-be72-4444-989e-4e4abffc43d8",
-      "width": 1202,
-      "x": 47,
-      "y": 51,
+      "width": 880,
+      "x": 200,
+      "y": 35,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,7 +50,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Huge thanks to 4ian, Bouh, Arthuro555, and all of the GDevelop \ncommunity over the years.\n\n- GUI Assets -\nHUD:  Adwitr on Itch.io / Mounir Tohami \nTitle Font: Sanguis - Jupiter Hadley\nGUI Font: Dogica Pixel - rmocci\n\n- World Art Assets -\nMap Tileset: Ansimuz\nPlayer Character: Ansimuz\nMonsters: Ansimuz\n\n- Sound Assets -\nMusic: Jonathan So\nSword Sound Effect: Iwan Gabovich\nOther Sounds: Created in GDevelop using JFXR\n\n- Game Design and Development - \nSilver-Streak\n\n\nPress the M key on the keyboard, the Y button on an Xbox Gamepad, or the Triangle on a Playstation Gamepad to return to the main menu.",
+        "text": "- GUI Assets -\n\nHUD: Adwitr on Itch.io / Mounir Tohami\n\n\n- World Art Assets -\n\nMap Tileset: ACTG on Itch.io\nPlayer Character: CraftPix.net\nMonsters: CraftPix.net\n\n\n- Sound Assets -\n\nMusic: Original Work by Andrew Mylius\nSword Sound Effect: \nOther Sounds: Foley by sgnossner\n\n\n- Game Design and Development -\n\nRobert Lai\nCassian Jones\nEthan Staneart\n\n\nPress the space bar to return to the main menu.",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -136,18 +137,7 @@
               },
               "parameters": [
                 "",
-                "m"
-              ]
-            },
-            {
-              "type": {
-                "value": "Gamepads::C_Button_pressed"
-              },
-              "parameters": [
-                "",
-                "1",
-                "\"Y\"",
-                ""
+                "Space"
               ]
             }
           ]
@@ -203,5 +193,22 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
 }

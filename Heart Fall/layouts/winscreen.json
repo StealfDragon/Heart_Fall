@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7399999999999998,
+    "zoomFactor": 0.5490402725299989,
     "windowMask": false
   },
   "objectsGroups": [
@@ -57,12 +57,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 291,
+      "depth": 1,
+      "height": 130,
       "layer": "",
       "name": "NextSteps",
       "persistentUuid": "9c4d30d2-1a74-42cb-9881-686fde41bdb6",
-      "width": 1117,
-      "x": 94,
+      "width": 810,
+      "x": 235,
       "y": 280,
       "zOrder": 3,
       "numberProperties": [],
@@ -98,7 +99,7 @@
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
-        "tint": "#ff0000",
+        "tint": "234;12;236",
         "bitmapFontResourceName": "sanguis80.fnt",
         "textureAtlasResourceName": "sanguis80_0.png",
         "align": "left",
@@ -132,7 +133,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Next steps are to download and edit the project in GDevelop to learn more about making your own game. \n\nFeel free to check out GDevelop at http://gdevelop-app.com.\n\nPress the M key on the keyboard, the Y button on an Xbox Gamepad, or the Triangle on a Playstation Gamepad to return to the main menu.",
+        "text": "Press c to continue to next level of the run\n\nOR\n\nPress m to return to the main menu",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -387,30 +388,11 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "KeyPressed"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "m"
-              ]
-            },
-            {
-              "type": {
-                "value": "Gamepads::C_Button_pressed"
-              },
-              "parameters": [
-                "",
-                "1",
-                "\"Y\"",
-                ""
-              ]
-            }
+          "parameters": [
+            "",
+            "m"
           ]
         },
         {
@@ -428,6 +410,38 @@
           "parameters": [
             "",
             "\"Title\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "c"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Stage\"",
             ""
           ]
         }
@@ -465,6 +479,34 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
     {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
