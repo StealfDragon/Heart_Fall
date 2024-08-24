@@ -36,11 +36,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "DasherEnemy",
-                    "Animation"
+                    "SpearSkeleton",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
                   ]
                 },
                 {
@@ -48,7 +50,7 @@
                     "value": "ChangeSprite"
                   },
                   "parameters": [
-                    "DasherEnemy",
+                    "SpearSkeleton",
                     "=",
                     "0"
                   ]
@@ -69,10 +71,64 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "DasherEnemy",
+              "object": "SpearSkeleton",
               "conditions": [],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "HeroHitbox",
+                        "<",
+                        "SpearSkeleton.X()-16"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "SpearSkeleton",
+                        "Flippable",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CenterX"
+                      },
+                      "parameters": [
+                        "HeroHitbox",
+                        ">",
+                        "SpearSkeleton.X()+16"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "SpearSkeleton",
+                        "Flippable",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -95,7 +151,17 @@
                       "parameters": [
                         "HeroHitbox",
                         "<=",
-                        "DasherEnemy.Y()+20"
+                        "SpearSkeleton.Y()+80"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "HeroHitbox",
+                        ">=",
+                        "SpearSkeleton.Y()-80"
                       ]
                     },
                     {
@@ -103,7 +169,7 @@
                         "value": "Egal"
                       },
                       "parameters": [
-                        "abs(DasherEnemy.X()-CameraX(\"\",0))",
+                        "abs(SpearSkeleton.X()-CameraX(\"\",0))",
                         "<=",
                         "640"
                       ]
@@ -135,7 +201,7 @@
                                 "value": "FlippableCapability::FlippableBehavior::FlippedX"
                               },
                               "parameters": [
-                                "DasherEnemy",
+                                "SpearSkeleton",
                                 "Flippable"
                               ]
                             },
@@ -145,8 +211,8 @@
                               },
                               "parameters": [
                                 "HeroHitbox",
-                                "<",
-                                "DasherEnemy.X()"
+                                ">",
+                                "SpearSkeleton.X()"
                               ]
                             }
                           ]
@@ -162,7 +228,7 @@
                                 "value": "FlippableCapability::FlippableBehavior::FlippedX"
                               },
                               "parameters": [
-                                "DasherEnemy",
+                                "SpearSkeleton",
                                 "Flippable"
                               ]
                             },
@@ -172,8 +238,8 @@
                               },
                               "parameters": [
                                 "HeroHitbox",
-                                ">",
-                                "DasherEnemy.X()"
+                                "<",
+                                "SpearSkeleton.X()"
                               ]
                             }
                           ]
@@ -185,7 +251,7 @@
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "DasherEnemy",
+                        "SpearSkeleton",
                         "StartDash",
                         "=",
                         "0"
@@ -195,10 +261,13 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "PlayAnimation"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
-                        "DasherEnemy"
+                        "SpearSkeleton",
+                        "Animation",
+                        "=",
+                        "\"Run\""
                       ]
                     },
                     {
@@ -206,7 +275,7 @@
                         "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
-                        "DasherEnemy",
+                        "SpearSkeleton",
                         "StartDash",
                         "=",
                         "1"
@@ -229,7 +298,7 @@
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "DasherEnemy",
+                        "SpearSkeleton",
                         "StartDash",
                         "=",
                         "1"
@@ -246,7 +315,7 @@
                             "value": "FlippableCapability::FlippableBehavior::FlippedX"
                           },
                           "parameters": [
-                            "DasherEnemy",
+                            "SpearSkeleton",
                             "Flippable"
                           ]
                         }
@@ -254,10 +323,10 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::SimulateRightKey"
+                            "value": "PlatformBehavior::SimulateLeftKey"
                           },
                           "parameters": [
-                            "Wolf",
+                            "SpearSkeleton",
                             "PlatformerObject"
                           ]
                         }
@@ -272,7 +341,7 @@
                             "value": "FlippableCapability::FlippableBehavior::FlippedX"
                           },
                           "parameters": [
-                            "DasherEnemy",
+                            "SpearSkeleton",
                             "Flippable"
                           ]
                         }
@@ -280,10 +349,10 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::SimulateLeftKey"
+                            "value": "PlatformBehavior::SimulateRightKey"
                           },
                           "parameters": [
-                            "Wolf",
+                            "SpearSkeleton",
                             "PlatformerObject"
                           ]
                         }
