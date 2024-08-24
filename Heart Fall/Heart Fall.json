@@ -5274,6 +5274,80 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_south.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ad9702d1cfbcc3457afd31222f1d00de12b8c266a73ddbe6e1e701f5c6e5f5e4_9patch_sand_south.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Tiles/ad9702d1cfbcc3457afd31222f1d00de12b8c266a73ddbe6e1e701f5c6e5f5e4_9patch_sand_south.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_sand_center.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "a8cc49c1cd8c82266832f6af017b1e2b66f5c7b5e7d02f3ee07d1e086e1c79ba_9patch_sand_center.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Tiles/a8cc49c1cd8c82266832f6af017b1e2b66f5c7b5e7d02f3ee07d1e086e1c79ba_9patch_sand_center.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Colored Confetti_Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0917d43e91d1dc35987d51594ecceb10dd7a222fab6061f74a4b419bc574e8de_Colored Confetti_Pink.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/FX/0917d43e91d1dc35987d51594ecceb10dd7a222fab6061f74a4b419bc574e8de_Colored Confetti_Pink.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Pink Background.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiled_Pink Background.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "7503f0463bc656160e9b9e46b9ab1e2c6df86a176ba629ec0aa110d3a8fcb718_tiled_Pink Background.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/7503f0463bc656160e9b9e46b9ab1e2c6df86a176ba629ec0aa110d3a8fcb718_tiled_Pink Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PotentialHeartFallMenuBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PotentialHeartFallMenuBackground.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_black space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
