@@ -8629,7 +8629,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite500.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite500.png\"}",
         "name": "NewSprite500",
         "smoothed": false,
         "userAdded": true
@@ -8638,7 +8638,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite501.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite501.png\"}",
         "name": "NewSprite501",
         "smoothed": false,
         "userAdded": true
@@ -8647,7 +8647,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite502.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite502.png\"}",
         "name": "NewSprite502",
         "smoothed": false,
         "userAdded": true
@@ -8656,7 +8656,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite503.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite503.png\"}",
         "name": "NewSprite503",
         "smoothed": false,
         "userAdded": true
@@ -8665,7 +8665,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite504.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite504.png\"}",
         "name": "NewSprite504",
         "smoothed": false,
         "userAdded": true
@@ -8674,7 +8674,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite505.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite505.png\"}",
         "name": "NewSprite505",
         "smoothed": false,
         "userAdded": true
@@ -8683,7 +8683,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite506.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite506.png\"}",
         "name": "NewSprite506",
         "smoothed": false,
         "userAdded": true
@@ -8692,7 +8692,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite507.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite507.png\"}",
         "name": "NewSprite507",
         "smoothed": false,
         "userAdded": true
@@ -9424,6 +9424,1941 @@
         "metadata": "",
         "name": "BigGateSprite.tmj",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Death20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Death21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Death22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Death23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss.png\"}",
+        "name": "NecromancerBoss",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss2.png\"}",
+        "name": "NecromancerBoss2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss3.png\"}",
+        "name": "NecromancerBoss3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss4.png\"}",
+        "name": "NecromancerBoss4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss5.png\"}",
+        "name": "NecromancerBoss5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss6.png\"}",
+        "name": "NecromancerBoss6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss7.png\"}",
+        "name": "NecromancerBoss7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss8.png\"}",
+        "name": "NecromancerBoss8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss9.png\"}",
+        "name": "NecromancerBoss9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss10.png\"}",
+        "name": "NecromancerBoss10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss11.png\"}",
+        "name": "NecromancerBoss11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss12.png\"}",
+        "name": "NecromancerBoss12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss13.png\"}",
+        "name": "NecromancerBoss13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss14.png\"}",
+        "name": "NecromancerBoss14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss15.png\"}",
+        "name": "NecromancerBoss15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss16.png\"}",
+        "name": "NecromancerBoss16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss17.png\"}",
+        "name": "NecromancerBoss17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss18.png\"}",
+        "name": "NecromancerBoss18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss19.png\"}",
+        "name": "NecromancerBoss19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss20.png\"}",
+        "name": "NecromancerBoss20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss21.png\"}",
+        "name": "NecromancerBoss21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss22.png\"}",
+        "name": "NecromancerBoss22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss23.png\"}",
+        "name": "NecromancerBoss23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss24.png\"}",
+        "name": "NecromancerBoss24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss25.png\"}",
+        "name": "NecromancerBoss25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss26.png\"}",
+        "name": "NecromancerBoss26",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss27.png\"}",
+        "name": "NecromancerBoss27",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss28.png\"}",
+        "name": "NecromancerBoss28",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss29.png\"}",
+        "name": "NecromancerBoss29",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss30.png\"}",
+        "name": "NecromancerBoss30",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss31.png\"}",
+        "name": "NecromancerBoss31",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss32.png\"}",
+        "name": "NecromancerBoss32",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss33.png\"}",
+        "name": "NecromancerBoss33",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss34.png\"}",
+        "name": "NecromancerBoss34",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss35.png\"}",
+        "name": "NecromancerBoss35",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss36.png\"}",
+        "name": "NecromancerBoss36",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss37.png\"}",
+        "name": "NecromancerBoss37",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss38.png\"}",
+        "name": "NecromancerBoss38",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss39.png\"}",
+        "name": "NecromancerBoss39",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss40.png\"}",
+        "name": "NecromancerBoss40",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss41.png\"}",
+        "name": "NecromancerBoss41",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss42.png\"}",
+        "name": "NecromancerBoss42",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss43.png\"}",
+        "name": "NecromancerBoss43",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss44.png\"}",
+        "name": "NecromancerBoss44",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss45.png\"}",
+        "name": "NecromancerBoss45",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss46.png\"}",
+        "name": "NecromancerBoss46",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss47.png\"}",
+        "name": "NecromancerBoss47",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss48.png\"}",
+        "name": "NecromancerBoss48",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss49.png\"}",
+        "name": "NecromancerBoss49",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss50.png\"}",
+        "name": "NecromancerBoss50",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss51.png\"}",
+        "name": "NecromancerBoss51",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss52.png\"}",
+        "name": "NecromancerBoss52",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss53.png\"}",
+        "name": "NecromancerBoss53",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss54.png\"}",
+        "name": "NecromancerBoss54",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss55.png\"}",
+        "name": "NecromancerBoss55",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss56.png\"}",
+        "name": "NecromancerBoss56",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss57.png\"}",
+        "name": "NecromancerBoss57",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss58.png\"}",
+        "name": "NecromancerBoss58",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss59.png\"}",
+        "name": "NecromancerBoss59",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss60.png\"}",
+        "name": "NecromancerBoss60",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss61.png\"}",
+        "name": "NecromancerBoss61",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss62.png\"}",
+        "name": "NecromancerBoss62",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss63.png\"}",
+        "name": "NecromancerBoss63",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss64.png\"}",
+        "name": "NecromancerBoss64",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss65.png\"}",
+        "name": "NecromancerBoss65",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss66.png\"}",
+        "name": "NecromancerBoss66",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss67.png\"}",
+        "name": "NecromancerBoss67",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss68.png\"}",
+        "name": "NecromancerBoss68",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss69.png\"}",
+        "name": "NecromancerBoss69",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss70.png\"}",
+        "name": "NecromancerBoss70",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss71.png\"}",
+        "name": "NecromancerBoss71",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss72.png\"}",
+        "name": "NecromancerBoss72",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss73.png\"}",
+        "name": "NecromancerBoss73",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss74.png\"}",
+        "name": "NecromancerBoss74",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss75.png\"}",
+        "name": "NecromancerBoss75",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss76.png\"}",
+        "name": "NecromancerBoss76",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss77.png\"}",
+        "name": "NecromancerBoss77",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss78.png\"}",
+        "name": "NecromancerBoss78",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss79.png\"}",
+        "name": "NecromancerBoss79",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss80.png\"}",
+        "name": "NecromancerBoss80",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss81.png\"}",
+        "name": "NecromancerBoss81",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss82.png\"}",
+        "name": "NecromancerBoss82",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss83.png\"}",
+        "name": "NecromancerBoss83",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss84.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss84.png\"}",
+        "name": "NecromancerBoss84",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss85.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss85.png\"}",
+        "name": "NecromancerBoss85",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss86.png\"}",
+        "name": "NecromancerBoss86",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss87.png\"}",
+        "name": "NecromancerBoss87",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss88.png\"}",
+        "name": "NecromancerBoss88",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss89.png\"}",
+        "name": "NecromancerBoss89",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss90.png\"}",
+        "name": "NecromancerBoss90",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss91.png\"}",
+        "name": "NecromancerBoss91",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss92.png\"}",
+        "name": "NecromancerBoss92",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss93.png\"}",
+        "name": "NecromancerBoss93",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss94.png\"}",
+        "name": "NecromancerBoss94",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss95.png\"}",
+        "name": "NecromancerBoss95",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss96.png\"}",
+        "name": "NecromancerBoss96",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss97.png\"}",
+        "name": "NecromancerBoss97",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss98.png\"}",
+        "name": "NecromancerBoss98",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss99.png\"}",
+        "name": "NecromancerBoss99",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss100.png\"}",
+        "name": "NecromancerBoss100",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss101.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss101.png\"}",
+        "name": "NecromancerBoss101",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss102.png\"}",
+        "name": "NecromancerBoss102",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss103.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss103.png\"}",
+        "name": "NecromancerBoss103",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss104.png\"}",
+        "name": "NecromancerBoss104",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss105.png\"}",
+        "name": "NecromancerBoss105",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss106.png\"}",
+        "name": "NecromancerBoss106",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss107.png\"}",
+        "name": "NecromancerBoss107",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss108.png\"}",
+        "name": "NecromancerBoss108",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss109.png\"}",
+        "name": "NecromancerBoss109",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss110.png\"}",
+        "name": "NecromancerBoss110",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss111.png\"}",
+        "name": "NecromancerBoss111",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss112.png\"}",
+        "name": "NecromancerBoss112",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss113.png\"}",
+        "name": "NecromancerBoss113",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss114.png\"}",
+        "name": "NecromancerBoss114",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss115.png\"}",
+        "name": "NecromancerBoss115",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss116.png\"}",
+        "name": "NecromancerBoss116",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss117.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss117.png\"}",
+        "name": "NecromancerBoss117",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss118.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss118.png\"}",
+        "name": "NecromancerBoss118",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss119.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss119.png\"}",
+        "name": "NecromancerBoss119",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss120.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss120.png\"}",
+        "name": "NecromancerBoss120",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss121",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss122.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss122",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss123.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss123",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss124.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss124",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss125.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss125",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss126",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss127.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss127",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss128.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss128",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss129.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss129",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss130.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss130",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss131.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss131",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss132",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss133",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss134.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss134",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss135",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss136",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss137",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss138.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss138",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss139.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss139",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss140.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss140",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss141.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss141",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss142.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss142",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss143.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss143",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss144.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss144",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss145",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss146.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss146",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss147",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss148",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss149",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss150",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss151.png\"}",
+        "name": "NecromancerBoss151",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss152.png\"}",
+        "name": "NecromancerBoss152",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss153.png\"}",
+        "name": "NecromancerBoss153",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss154.png\"}",
+        "name": "NecromancerBoss154",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss155.png\"}",
+        "name": "NecromancerBoss155",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss156.png\"}",
+        "name": "NecromancerBoss156",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss157.png\"}",
+        "name": "NecromancerBoss157",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NecromancerBoss158.png\"}",
+        "name": "NecromancerBoss158",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss159",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss160.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss160",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss161.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss161",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss162.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss162",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss163",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss164",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss165",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss166",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss167",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss168",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss169",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss170",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss171",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss172",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss173",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss174.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss174",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss175.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss175",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss176.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss176",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss177.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss177",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss178.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss178",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss179.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss179",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss180",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss181.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss181",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss182.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss182",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss183.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss183",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss184.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss184",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NecromancerBoss185.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NecromancerBoss185",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rise.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Rise.png\"}",
+        "name": "Rise",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rise2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Rise2.png\"}",
+        "name": "Rise2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rise3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Rise3.png\"}",
+        "name": "Rise3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rise4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Rise4.png\"}",
+        "name": "Rise4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rise5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Rise5.png\"}",
+        "name": "Rise5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite587.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite587.png\"}",
+        "name": "NewSprite587",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle24",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -9516,7 +11451,7 @@
     {
       "name": "keyboardJump",
       "type": "string",
-      "value": "j"
+      "value": "Space"
     },
     {
       "name": "keyboardAttack",
@@ -9529,9 +11464,20 @@
       "value": "o"
     },
     {
+      "name": "keyboardInteract",
+      "type": "string",
+      "value": "e"
+    },
+    {
+      "folded": true,
+      "name": "keyboardBlock",
+      "type": "string",
+      "value": "i"
+    },
+    {
       "name": "DashCost",
       "type": "string",
-      "value": "25"
+      "value": "50"
     },
     {
       "name": "Cutscene",
@@ -9666,6 +11612,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/gamepads"

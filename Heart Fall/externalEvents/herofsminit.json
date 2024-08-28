@@ -56,6 +56,16 @@
                 "=",
                 "\"Idle\""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "HeroGuardHitbox",
+                "Platform",
+                "no"
+              ]
             }
           ]
         }

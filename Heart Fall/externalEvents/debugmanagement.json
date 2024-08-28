@@ -208,7 +208,7 @@
                     "value": "Opacity"
                   },
                   "parameters": [
-                    "BossLocation",
+                    "BossLocation1",
                     "=",
                     "125"
                   ]
