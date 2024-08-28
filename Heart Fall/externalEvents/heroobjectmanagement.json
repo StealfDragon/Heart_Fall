@@ -90,6 +90,17 @@
                 "0",
                 "180"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "HeroGuardHitbox",
+                "HeroHitbox",
+                "-60",
+                "180"
+              ]
             }
           ]
         },
@@ -117,6 +128,17 @@
                 "0",
                 "360",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "HeroGuardHitbox",
+                "HeroHitbox",
+                "-60",
+                "360"
               ]
             }
           ]

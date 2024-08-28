@@ -50,7 +50,7 @@
           "name": "Right"
         },
         {
-          "name": "BossLocation"
+          "name": "BossLocation1"
         },
         {
           "name": "Checkpoint"
@@ -343,7 +343,7 @@
       "width": 2117,
       "x": 7408,
       "y": 1646,
-      "zOrder": 100040,
+      "zOrder": 100057,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -620,7 +620,7 @@
       "persistentUuid": "eb07de96-7a4d-49e6-967c-46684e41f370",
       "width": 431,
       "x": 8256,
-      "y": 2139,
+      "y": 2117,
       "zOrder": 100030,
       "numberProperties": [],
       "stringProperties": [],
@@ -630,14 +630,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 114,
+      "height": 67,
       "keepRatio": true,
       "layer": "",
       "name": "BonePlatform",
       "persistentUuid": "7132ea62-040e-4045-8c16-4aa2a66c58b0",
-      "width": 257,
-      "x": 8940,
-      "y": 2163,
+      "width": 150,
+      "x": 8399,
+      "y": 2484,
       "zOrder": 100031,
       "numberProperties": [],
       "stringProperties": [],
@@ -665,22 +665,32 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "BossLocation",
-      "persistentUuid": "ccfe5bf3-eeec-4258-9091-540cc3e39212",
+      "name": "BossLocation1",
+      "persistentUuid": "42c171ba-35c2-4405-b652-4cbe40222557",
       "width": 0,
-      "x": 7615,
-      "y": 2038,
-      "zOrder": 100037,
+      "x": 8432,
+      "y": 1921,
+      "zOrder": 100038,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "Location",
-          "type": "number",
-          "value": 1
-        }
-      ]
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 480,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Barrier",
+      "persistentUuid": "cfc2539b-0181-4549-92e7-bb2baea16111",
+      "width": 96,
+      "x": 7406,
+      "y": 1642,
+      "zOrder": 100041,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     },
     {
       "angle": 0,
@@ -688,12 +698,28 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "BossLocation",
-      "persistentUuid": "42c171ba-35c2-4405-b652-4cbe40222557",
+      "name": "Checkpoint",
+      "persistentUuid": "320daa57-fb77-4341-b64a-c1e8088989aa",
       "width": 0,
-      "x": 8432,
-      "y": 2021,
-      "zOrder": 100038,
+      "x": 6990,
+      "y": 2155,
+      "zOrder": 100042,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawn",
+      "persistentUuid": "db67b24d-ec9b-483f-a02b-1b06535070c9",
+      "width": 0,
+      "x": 8872,
+      "y": 2541,
+      "zOrder": 100043,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -711,12 +737,104 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "BossLocation",
-      "persistentUuid": "f10ae1ae-b270-41cf-9766-15b2ad9f2706",
+      "name": "Spawn",
+      "persistentUuid": "12618aa4-d64c-4a5a-b9d2-fd6928fc1c4c",
       "width": 0,
-      "x": 9251,
-      "y": 2024,
-      "zOrder": 100039,
+      "x": 9170,
+      "y": 2541,
+      "zOrder": 100044,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Location",
+          "type": "number",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawn",
+      "persistentUuid": "73690993-e916-4f8d-8d00-575d905b2397",
+      "width": 0,
+      "x": 8006,
+      "y": 2541,
+      "zOrder": 100045,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Location",
+          "type": "number",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawn",
+      "persistentUuid": "250dea26-b359-4d83-9399-bf7f5aef4c2a",
+      "width": 0,
+      "x": 7693,
+      "y": 2541,
+      "zOrder": 100046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Location",
+          "type": "number",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawn",
+      "persistentUuid": "82b03730-8d00-48ea-a4ac-a32787a1a9e0",
+      "width": 0,
+      "x": 9020,
+      "y": 2541,
+      "zOrder": 100047,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Location",
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawn",
+      "persistentUuid": "8e6f3d4d-59d6-4751-b99e-54c2190a3558",
+      "width": 0,
+      "x": 7845,
+      "y": 2541,
+      "zOrder": 100048,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -730,17 +848,113 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 480,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Barrier",
-      "persistentUuid": "cfc2539b-0181-4549-92e7-bb2baea16111",
-      "width": 96,
-      "x": 7406,
-      "y": 1642,
-      "zOrder": 100041,
+      "name": "Left",
+      "persistentUuid": "e3a63b10-36cf-454d-97bb-0f03b84b4427",
+      "width": 0,
+      "x": 8755,
+      "y": 2542,
+      "zOrder": 100049,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "af98cb33-f237-4131-bc27-9a193ae5ccf2",
+      "width": 0,
+      "x": 9330,
+      "y": 2539,
+      "zOrder": 100050,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "b0fc6963-ee85-49bd-9eda-df9109c5de6f",
+      "width": 0,
+      "x": 7536,
+      "y": 2541,
+      "zOrder": 100051,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "85e23a6c-7118-4332-b71a-b9144fb84777",
+      "width": 0,
+      "x": 8110,
+      "y": 2544,
+      "zOrder": 100052,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BossLocation2",
+      "persistentUuid": "903d949f-5fe8-4df5-b844-3b0bac232202",
+      "width": 0,
+      "x": 8822,
+      "y": 1921,
+      "zOrder": 100055,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BossLocation3",
+      "persistentUuid": "68aedde8-bd0d-4bb7-b903-dce01873e3b8",
+      "width": 0,
+      "x": 7707,
+      "y": 1921,
+      "zOrder": 100056,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 16,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HeroGuardHitbox",
+      "persistentUuid": "8f1a22bf-781a-4741-bd8b-9b6507d6e15f",
+      "width": 148,
+      "x": 314,
+      "y": 393,
+      "zOrder": 100058,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -772,10 +986,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
           "canBeGrabbed": true,
+          "name": "Platform",
           "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ],
@@ -3278,22 +3492,15 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "BossLocation",
+      "name": "BossLocation1",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "Location",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
         {
-          "name": "BossLocation",
+          "name": "BossLocation1",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5644,7 +5851,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.125,
+              "timeBetweenFrames": 0.12,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -5994,7 +6201,7 @@
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.16666666666666666,
+              "timeBetweenFrames": 0.18,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -7874,6 +8081,7 @@
       "effects": [],
       "behaviors": [
         {
+          "ignoreDefaultControls": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "maxSpeed": 500,
@@ -7883,7 +8091,6 @@
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
           "gravity": 1000,
-          "ignoreDefaultControls": false,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
@@ -8935,7 +9142,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "NecromancerBoss",
       "type": "Sprite",
@@ -8956,6 +9163,12 @@
           "name": "BossPhase",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "FirstSummon",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -8967,13 +9180,206 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Rise",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.22,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rise",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 103.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 175.5,
+                        "y": 211
+                      },
+                      {
+                        "x": 104,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rise2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 103.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 175.5,
+                        "y": 211
+                      },
+                      {
+                        "x": 104,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rise3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 103.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 175.5,
+                        "y": 211
+                      },
+                      {
+                        "x": 104,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rise4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 103.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 175.5,
+                        "y": 211
+                      },
+                      {
+                        "x": 104,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Rise5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 103.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 173.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 175.5,
+                        "y": 211
+                      },
+                      {
+                        "x": 104,
+                        "y": 216.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -8993,20 +9399,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -9029,20 +9435,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -9065,20 +9471,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -9101,20 +9507,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -9137,20 +9543,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -9173,20 +9579,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -9209,20 +9615,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -9245,1539 +9651,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite508",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite509",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite510",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite511",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite512",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite513",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite514",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite515",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite516",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite517",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite518",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite519",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite520",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite521",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite522",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite523",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite524",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite525",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite526",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite527",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite528",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite529",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite530",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite531",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite532",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite533",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite534",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite535",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite536",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite537",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite538",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite539",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite540",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite541",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite542",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite543",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite544",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite545",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite546",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite547",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite548",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite549",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 115,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 72
-                      },
-                      {
-                        "x": 183,
-                        "y": 204
-                      },
-                      {
-                        "x": 115,
-                        "y": 204
-                      }
-                    ]
-                  ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite550",
+                  "image": "Idle17",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10793,27 +9700,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite551",
+                  "image": "Idle18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10829,27 +9736,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite552",
+                  "image": "Idle19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10865,27 +9772,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite553",
+                  "image": "Idle20",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10901,27 +9808,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite554",
+                  "image": "Idle21",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10937,27 +9844,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite555",
+                  "image": "Idle22",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10973,27 +9880,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite556",
+                  "image": "Idle23",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11009,27 +9916,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite557",
+                  "image": "Idle24",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11045,27 +9952,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.12,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite558",
+                  "image": "Jump",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11081,27 +10001,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite559",
+                  "image": "Jump2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11117,27 +10037,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite560",
+                  "image": "Jump3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11153,27 +10073,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite561",
+                  "image": "Jump4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11189,27 +10109,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite562",
+                  "image": "Jump5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11225,27 +10145,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite563",
+                  "image": "Jump6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11261,27 +10181,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite564",
+                  "image": "Jump7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11297,27 +10217,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite565",
+                  "image": "Jump8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11333,27 +10253,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite566",
+                  "image": "Hurt14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11369,27 +10302,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite567",
+                  "image": "Hurt15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11405,27 +10338,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite568",
+                  "image": "Hurt16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11441,27 +10374,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite569",
+                  "image": "Hurt17",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11477,27 +10410,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Death",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite570",
+                  "image": "Death20",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11513,27 +10459,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite571",
+                  "image": "Death21",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11549,27 +10495,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite572",
+                  "image": "Death22",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11585,27 +10531,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite573",
+                  "image": "Death23",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11621,27 +10567,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Summon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite574",
+                  "image": "NecromancerBoss151",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11657,27 +10616,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite575",
+                  "image": "NecromancerBoss152",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11693,27 +10652,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite576",
+                  "image": "NecromancerBoss153",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11729,27 +10688,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite577",
+                  "image": "NecromancerBoss154",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11765,27 +10724,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite578",
+                  "image": "NecromancerBoss155",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11801,27 +10760,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite579",
+                  "image": "NecromancerBoss156",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11837,27 +10796,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite580",
+                  "image": "NecromancerBoss157",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11873,27 +10832,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite581",
+                  "image": "NecromancerBoss158",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11909,27 +10868,40 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rest",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite582",
+                  "image": "NecromancerBoss181",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11945,27 +10917,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite583",
+                  "image": "NecromancerBoss182",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11981,27 +10953,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite584",
+                  "image": "NecromancerBoss183",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12017,27 +10989,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite585",
+                  "image": "NecromancerBoss184",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12053,27 +11025,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite586",
+                  "image": "NecromancerBoss185",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12089,20 +11061,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 115,
-                        "y": 72
+                        "x": 103.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 72
+                        "x": 173.5,
+                        "y": 66.5
                       },
                       {
-                        "x": 183,
-                        "y": 204
+                        "x": 175.5,
+                        "y": 211
                       },
                       {
-                        "x": 115,
-                        "y": 204
+                        "x": 104,
+                        "y": 216.5
                       }
                     ]
                   ]
@@ -12191,6 +11163,184 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "tilemapJsonFile": "BigGateSprite.tmj",
+        "tilesetJsonFile": "",
+        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
+        "displayMode": "visible",
+        "layerIndex": 0,
+        "levelIndex": 0,
+        "animationSpeedScale": 1,
+        "animationFps": 4
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Spawn",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Location",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Spawn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite587",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BossLocation2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BossLocation1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BossLocation-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BossLocation3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BossLocation1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BossLocation-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "HeroGuardHitbox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
         }
       ],
       "content": {
@@ -12501,6 +11651,9 @@
         "objectName": "HeroAttackHitbox"
       },
       {
+        "objectName": "HeroGuardHitbox"
+      },
+      {
         "objectName": "BossRoom"
       },
       {
@@ -12534,7 +11687,13 @@
         "objectName": "BonePlatform"
       },
       {
-        "objectName": "BossLocation"
+        "objectName": "BossLocation1"
+      },
+      {
+        "objectName": "BossLocation2"
+      },
+      {
+        "objectName": "BossLocation3"
       },
       {
         "objectName": "Checkpoint"
@@ -12565,6 +11724,9 @@
       },
       {
         "objectName": "Gravestone"
+      },
+      {
+        "objectName": "Spawn"
       }
     ]
   },
@@ -12671,6 +11833,27 @@
           },
           "parameters": [
             "HeroCameraTarget"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "NecromancerBoss",
+            "Flippable",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "NecromancerBoss",
+            "Animation",
+            "=",
+            "\"Rest\""
           ]
         }
       ],
@@ -12924,16 +12107,46 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Only start the boss fight logic if the BossFightStart variable is set to 1."
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "BossStart",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "NecromancerBoss",
+                    "Animation",
+                    "=",
+                    "\"Rise\""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12949,7 +12162,16 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -13006,6 +12228,26 @@
                           "conditions": [
                             {
                               "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Animation",
+                                "=",
+                                "\"Rise\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Animation"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "BuiltinCommonInstructions::Once"
                               },
                               "parameters": []
@@ -13014,20 +12256,57 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "UnPauseObjectTimer"
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
                                 "NecromancerBoss",
-                                "\"MoveTimer\""
+                                "Animation",
+                                "=",
+                                "\"Idle\""
                               ]
-                            },
+                            }
+                          ],
+                          "events": [
                             {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "\"MoveTimer\""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "NecromancerBoss",
+                                    "Animation",
+                                    "=",
+                                    "\"Idle\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "UnPauseObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "NecromancerBoss",
+                                    "\"MoveTimer\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "NecromancerBoss",
+                                    "\"MoveTimer\""
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -13054,18 +12333,7 @@
                               "parameters": [
                                 "NecromancerBoss",
                                 "\"MoveTimer\"",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "BossLocation",
-                                "Location",
-                                "=",
-                                "3"
+                                "2"
                               ]
                             },
                             {
@@ -13078,17 +12346,16 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                               },
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
-                                "\"MoveToPos3\"",
-                                "NecromancerBoss.X()",
-                                "BossLocation.Y()",
+                                "\"MoveToPos1\"",
+                                "BossLocation1.Y()",
                                 "\"linear\"",
                                 "1",
-                                ""
+                                "1"
                               ]
                             }
                           ]
@@ -13115,7 +12382,7 @@
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
-                                "\"MoveToPos3\""
+                                "\"MoveToPos1\""
                               ]
                             },
                             {
@@ -13125,7 +12392,7 @@
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
-                                "\"MoveToPos3\""
+                                "\"MoveToPos1\""
                               ]
                             },
                             {
@@ -13173,7 +12440,7 @@
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
-                                "\"MoveToPos3\""
+                                "\"MoveToPos1\""
                               ]
                             }
                           ]
@@ -13209,54 +12476,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "NumberObjectVariable"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "6"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "9"
-                              ]
-                            }
+                          "parameters": [
+                            "NecromancerBoss",
+                            "BossPhase",
+                            "=",
+                            "1"
                           ]
                         }
                       ],
@@ -13277,17 +12503,6 @@
                             },
                             {
                               "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "BossLocation",
-                                "Location",
-                                "=",
-                                "2"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "BuiltinCommonInstructions::Once"
                               },
                               "parameters": []
@@ -13296,17 +12511,16 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "Tween::AddObjectPositionTween"
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                               },
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
                                 "\"MoveToPos2\"",
-                                "BossLocation.X()",
-                                "BossLocation.Y()",
+                                "BossLocation2.X()",
                                 "\"linear\"",
-                                "1000",
-                                ""
+                                "2",
+                                "2"
                               ]
                             }
                           ]
@@ -13366,13 +12580,182 @@
                             },
                             {
                               "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos2\""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "SetNumberObjectVariable"
                               },
                               "parameters": [
                                 "NecromancerBoss",
                                 "BossPhase",
-                                "+",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "NecromancerBoss",
+                            "Animation",
+                            "=",
+                            "\"Summon\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "NecromancerBoss",
+                            "Animation"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "NecromancerBoss",
+                            "Animation",
+                            "=",
+                            "\"Idle2\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "NecromancerBoss",
+                            "BossPhase",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "NecromancerBoss",
+                            "FirstSummon",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "NecromancerBoss",
+                            "Animation",
+                            "=",
+                            "\"Summon\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Spawn",
+                                "Location",
+                                "=",
                                 "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "SwordSkeleton",
+                                "Spawn.X()-40",
+                                "Spawn.Y()-300",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SwordSkeleton",
+                                "Scale",
+                                "=",
+                                "1.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "SwordSkeleton",
+                                "Animation",
+                                "=",
+                                "\"Walk\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "UnPauseObjectTimer"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "\"MoveTimer\""
                               ]
                             },
                             {
@@ -13386,12 +12769,35 @@
                             },
                             {
                               "type": {
-                                "value": "Tween::RemoveTween"
+                                "value": "SetNumberObjectVariable"
                               },
                               "parameters": [
                                 "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos2\""
+                                "BossPhase",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "SwordSkeleton",
+                                "HasAttacked",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "FirstSummon",
+                                "=",
+                                "1"
                               ]
                             }
                           ]
@@ -13403,54 +12809,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "NumberObjectVariable"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "2"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "5"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "7"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "=",
-                                "10"
-                              ]
-                            }
+                          "parameters": [
+                            "NecromancerBoss",
+                            "BossPhase",
+                            "=",
+                            "3"
                           ]
                         }
                       ],
@@ -13471,17 +12836,6 @@
                             },
                             {
                               "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "BossLocation",
-                                "Location",
-                                "=",
-                                "3"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "BuiltinCommonInstructions::Once"
                               },
                               "parameters": []
@@ -13490,17 +12844,16 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "Tween::AddObjectPositionTween"
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                               },
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
                                 "\"MoveToPos3\"",
-                                "BossLocation.X()",
-                                "BossLocation.Y()",
+                                "BossLocation3.X()",
                                 "\"linear\"",
-                                "1000",
-                                ""
+                                "2",
+                                "2"
                               ]
                             }
                           ]
@@ -13553,155 +12906,12 @@
                               "parameters": [
                                 "NecromancerBoss",
                                 "BossPhase",
-                                "+",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "\"MoveTimer\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::RemoveTween"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos3\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Boss phases 4 and 8 has the boss move to the upper corners of the boss room, so they are separate from the 2 main phases."
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "NecromancerBoss",
-                            "BossPhase",
-                            "=",
-                            "4"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectTimer"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "\"MoveTimer\"",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "BossLocation",
-                                "Location",
                                 "=",
                                 "4"
                               ]
                             },
                             {
                               "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Tween::AddObjectPositionTween"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos4\"",
-                                "BossLocation.X()",
-                                "BossLocation.Y()",
-                                "\"linear\"",
-                                "1000",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Tween::Exists"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos4\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::HasFinished"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos4\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "+",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "ResetObjectTimer"
                               },
                               "parameters": [
@@ -13716,138 +12926,7 @@
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
-                                "\"MoveToPos4\""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "NecromancerBoss",
-                            "BossPhase",
-                            "=",
-                            "8"
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ObjectTimer"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "\"MoveTimer\"",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "BossLocation",
-                                "Location",
-                                "=",
-                                "8"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "Tween::AddObjectPositionTween"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos8\"",
-                                "BossLocation.X()",
-                                "BossLocation.Y()",
-                                "\"linear\"",
-                                "1000",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Tween::Exists"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos8\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::HasFinished"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos8\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "BossPhase",
-                                "+",
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ResetObjectTimer"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "\"MoveTimer\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::RemoveTween"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Tween",
-                                "\"MoveToPos8\""
+                                "\"MoveToPos1\""
                               ]
                             }
                           ]
@@ -13877,7 +12956,7 @@
                             "NecromancerBoss",
                             "BossPhase",
                             "=",
-                            "11"
+                            "3"
                           ]
                         },
                         {
@@ -14024,6 +13103,11 @@
                     }
                   ],
                   "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             }
@@ -14252,6 +13336,28 @@
                     "",
                     "0.65",
                     "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0.65",
+                    "\"DashEffect\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0.65",
+                    "\"DeathEffect\"",
                     "0"
                   ]
                 }
@@ -14921,14 +14027,16 @@
       "cameras": [],
       "effects": [
         {
-          "effectType": "Outline",
+          "effectType": "KawaseBlur",
           "name": "Effect",
           "doubleParameters": {
-            "thickness": 3
+            "blur": 0.2,
+            "padding": 0,
+            "pixelizeX": 1,
+            "pixelizeY": 1,
+            "quality": 3
           },
-          "stringParameters": {
-            "color": "#a300ff"
-          },
+          "stringParameters": {},
           "booleanParameters": {}
         }
       ]

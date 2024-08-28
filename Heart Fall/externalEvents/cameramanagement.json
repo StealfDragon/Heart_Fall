@@ -43,6 +43,14 @@
           "parameters": [
             "BossRoom"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HeroGuardHitbox"
+          ]
         }
       ]
     },
@@ -160,7 +168,7 @@
                   },
                   "parameters": [
                     "",
-                    "HeroHitbox",
+                    "HeroCameraTarget",
                     "CameraRoom.X()",
                     "CameraRoom.Y()",
                     "CameraRoom.X() + CameraRoom.Width()",
@@ -176,7 +184,7 @@
                   },
                   "parameters": [
                     "",
-                    "HeroHitbox",
+                    "HeroCameraTarget",
                     "CameraRoom.X()",
                     "CameraRoom.Y()",
                     "CameraRoom.X() + CameraRoom.Width()",
