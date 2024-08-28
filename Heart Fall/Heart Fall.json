@@ -9427,6 +9427,96 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "heart1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heart1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/heart1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart1",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/heart2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tombstone_w__Flower1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tombstone_w__Flower1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tombstone_w__Flower1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tombstone_w__Flower1.png\"}",
+        "name": "Tombstone_w__Flower1",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tombstone_w__Flower2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tombstone_w__Flower2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tombstone_w__Flower3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tombstone_w__Flower3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tombstone_w__Flower4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tombstone_w__Flower4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tombstone_w__Flower5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tombstone_w__Flower5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/heart3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Jump.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -11011,6 +11101,42 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/heart4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/heart5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/heart6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/heart7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NecromancerBoss161.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -11200,10 +11326,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/heart8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NecromancerBoss182.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NecromancerBoss182",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/heart9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart9",
         "smoothed": false,
         "userAdded": true
       },
@@ -11218,10 +11362,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/heart10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "heart10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NecromancerBoss184.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NecromancerBoss184",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hearts.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hearts",
         "smoothed": false,
         "userAdded": true
       },
@@ -11281,6 +11443,15 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Flutter.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flutter",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/NewSprite587.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite587.png\"}",
@@ -11317,10 +11488,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Flutter2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flutter2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Idle20.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flutter3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flutter3",
         "smoothed": false,
         "userAdded": false
       },
@@ -11335,6 +11524,15 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Flutter4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Flutter4.png\"}",
+        "name": "Flutter4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Idle22.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -11344,10 +11542,28 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Flutter5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Flutter5.png\"}",
+        "name": "Flutter5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Idle23.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flutter6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Flutter6.png\"}",
+        "name": "Flutter6",
         "smoothed": false,
         "userAdded": false
       },

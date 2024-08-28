@@ -107,6 +107,60 @@
                 "Enemy",
                 "\"255;0;0\""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Hearts",
+                "HeroAttackHitbox.X()",
+                "HeroAttackHitbox.Y() - 100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Hearts",
+                "Animation",
+                "=",
+                "\"Flutter\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Hearts",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Hearts",
+                ""
+              ]
             }
           ]
         },
@@ -222,20 +276,10 @@
               },
               "parameters": [
                 "",
-                "EnemyDeathFire",
+                "Gravestone",
                 "Enemy.CenterX() - 88",
                 "Enemy.CenterY() - 104",
                 "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "EnemyDeathFire",
-                "=",
-                "Enemy.ZOrder() - 1"
               ]
             },
             {
@@ -245,6 +289,15 @@
               "parameters": [
                 "Enemy",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GravestoneDisappear\""
               ]
             }
           ],
@@ -328,27 +381,37 @@
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                "value": "CompareTimer"
               },
               "parameters": [
-                "EnemyDeathFire",
-                "Animation"
+                "",
+                "\"GravestoneDisappear\"",
+                ">=",
+                "15"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "Gravestone",
+                "Tween",
+                "\"GravestoneFade\"",
+                "0",
+                "\"linear\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
-                "EnemyDeathFire",
+                "Gravestone",
                 ""
               ]
             }
