@@ -1,0 +1,266 @@
+{ "compressionlevel":-1,
+ "height":5,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[5,
+            4,
+            4,
+            4,
+            16],
+         "height":5,
+         "id":1,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":1,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":2,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"left-up",
+ "tiledversion":"1.11.0",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":12,
+         "firstgid":1,
+         "image":"egypt_tomb_v1.1.png",
+         "imageheight":256,
+         "imagewidth":384,
+         "margin":0,
+         "name":"Main stuff",
+         "properties":[
+                {
+                 "name":"Platform",
+                 "type":"string",
+                 "value":""
+                }],
+         "spacing":0,
+         "tilecount":96,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":3,
+                 "type":"Gate"
+                },
+            
+                {
+                 "id":4,
+                 "type":"Gate"
+                },
+            
+                {
+                 "id":6,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":15,
+                 "type":"Gate"
+                },
+            
+                {
+                 "id":16,
+                 "type":"Gate"
+                },
+            
+                {
+                 "id":21,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":22,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":37,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":67,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":68,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":79,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":86,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":91,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                },
+            
+                {
+                 "id":94,
+                 "properties":[
+                        {
+                         "name":"Platform",
+                         "propertytype":"Platform",
+                         "type":"class",
+                         "value":
+                            {
+
+                            }
+                        }],
+                 "type":"Platform"
+                }],
+         "tilewidth":32
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":"1.10",
+ "width":1
+}

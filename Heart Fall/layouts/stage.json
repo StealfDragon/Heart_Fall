@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.305041097066529,
+    "zoomFactor": 0.1982068253578394,
     "windowMask": false
   },
   "objectsGroups": [
@@ -337,8 +337,8 @@
       "layer": "",
       "name": "BossRoom",
       "persistentUuid": "1f3e5e6b-3de6-45fb-a929-6ef948808153",
-      "width": 1920,
-      "x": 7501,
+      "width": 2018,
+      "x": 7403,
       "y": 1834,
       "zOrder": 4,
       "numberProperties": [],
@@ -356,21 +356,6 @@
       "x": 125,
       "y": 81,
       "zOrder": 148,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "CutsceneCamera",
-      "persistentUuid": "b8bd9079-6575-44fb-a8aa-c7e16190c3b8",
-      "width": 0,
-      "x": 9920,
-      "y": -1776,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -488,6 +473,89 @@
       "x": 2903,
       "y": 1775,
       "zOrder": 100013,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 384.6,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewExternalTileMapMask",
+      "persistentUuid": "808affac-36e9-46a7-93ed-20ff27f41c57",
+      "width": 96.15,
+      "x": 772,
+      "y": 105,
+      "zOrder": 100015,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 480.00000000000006,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Boss_Gate",
+      "persistentUuid": "710d7db2-c44c-4269-b0b4-872fb5e0218d",
+      "width": 96,
+      "x": 7406,
+      "y": 1644,
+      "zOrder": 100016,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BossLocation",
+      "persistentUuid": "751c8678-68b9-4a91-8355-f56f017474af",
+      "width": 0,
+      "x": 8433,
+      "y": 2248,
+      "zOrder": 100018,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CutsceneCamera",
+      "persistentUuid": "ec2b3d3d-ab79-4335-a8b9-ea7c74e80d00",
+      "width": 0,
+      "x": 8436,
+      "y": 2077,
+      "zOrder": 100019,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 384,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tutorial_Gate",
+      "persistentUuid": "8afedfc5-c4e1-46f2-b468-f238bdad6462",
+      "width": 96,
+      "x": 772,
+      "y": 106,
+      "zOrder": 100021,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5955,9 +6023,9 @@
       "effects": [],
       "behaviors": [
         {
-          "maxSpeed": 400,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "maxSpeed": 400,
           "acceleration": 15000,
           "canGrabPlatforms": false,
           "deceleration": 15000,
@@ -9588,6 +9656,66 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tutorial_Gate",
+      "type": "TileMap::TileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "tilemapJsonFile": "GateSprite.tmj",
+        "tilesetJsonFile": "",
+        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
+        "displayMode": "visible",
+        "layerIndex": 0,
+        "levelIndex": 0,
+        "animationSpeedScale": 1,
+        "animationFps": 4
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Boss_Gate",
+      "type": "TileMap::TileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "tilemapJsonFile": "BigGateSprite.tmj",
+        "tilesetJsonFile": "",
+        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
+        "displayMode": "visible",
+        "layerIndex": 0,
+        "levelIndex": 0,
+        "animationSpeedScale": 1,
+        "animationFps": 4
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9716,6 +9844,12 @@
       },
       {
         "objectName": "SwordSkeleton"
+      },
+      {
+        "objectName": "Tutorial_Gate"
+      },
+      {
+        "objectName": "Boss_Gate"
       }
     ]
   },
@@ -9823,6 +9957,15 @@
           "parameters": [
             "HeroCameraTarget"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"TutorialPlaceHolder\""
+          ]
         }
       ],
       "events": [
@@ -9922,6 +10065,47 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"TutorialPlaceHolder\"",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"TutorialPlaceHolder\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "Tutorial_Gate",
+            "Tween",
+            "\"TutorialGateY\"",
+            "-278",
+            "\"easeTo\"",
+            "1.5",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -9939,6 +10123,22 @@
         "includeConfig": 0
       },
       "target": "CameraManagement"
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Gate Events",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "colorB": 228,
@@ -11461,7 +11661,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "As the Cutscene variable disables player controls, the player needs to be moved right until it is past the barrier object."
+                      "comment": "As the Cutscene variable disables player controls, the player needs to be moved right until it is past the Boss Gate\n object."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -11473,7 +11673,7 @@
                           "parameters": [
                             "HeroHitbox",
                             "<",
-                            "BossRoom.X()+Barrier.Width()"
+                            "BossRoom.X() + Boss_Gate.Width()"
                           ]
                         }
                       ],
@@ -11570,7 +11770,7 @@
                           "parameters": [
                             "HeroHitbox",
                             ">=",
-                            "BossRoom.X()+Barrier.Width()"
+                            "BossRoom.X() + Boss_Gate.Width()"
                           ]
                         },
                         {
@@ -11732,7 +11932,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Boss Cutscene Barrier Movement",
+                  "name": "Boss Cutscene Gate Movement",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -11746,7 +11946,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Only start moving the barriers after both the Hero and the Camera are done moving."
+                      "comment": "Only start moving the gate after both the Hero and the Camera are done moving."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -11790,11 +11990,11 @@
                                 "value": "Tween::AddObjectPositionYTween"
                               },
                               "parameters": [
-                                "Barrier",
+                                "Boss_Gate",
                                 "Tween",
-                                "\"BossBarrierMoveY\"",
-                                "BossRoom.Y()",
-                                "\"linear\"",
+                                "\"BossGateMoveY\"",
+                                "2124",
+                                "\"easeTo\"",
                                 "1800",
                                 ""
                               ]
@@ -11809,9 +12009,9 @@
                                 "value": "Tween::Exists"
                               },
                               "parameters": [
-                                "Barrier",
+                                "Boss_Gate",
                                 "Tween",
-                                "\"BossBarrierMoveY\""
+                                "\"BossGateMoveY\""
                               ]
                             }
                           ],
@@ -11827,7 +12027,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "While the barriers are moving, fade out the stage music.\nThis is done using a clamp parameter to make sure it stops at 0 and doesn't cause any issues by going to a negative number."
+                              "comment": "While the gate is moving, fade out the stage music.\nThis is done using a clamp parameter to make sure it stops at 0 and doesn't cause any issues by going to a negative number."
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -11838,9 +12038,9 @@
                                     "value": "Tween::HasFinished"
                                   },
                                   "parameters": [
-                                    "Barrier",
+                                    "Boss_Gate",
                                     "Tween",
-                                    "\"BossBarrierMoveY\""
+                                    "\"BossGateMoveY\""
                                   ]
                                 }
                               ],
@@ -11868,7 +12068,7 @@
                                 "textG": 0,
                                 "textR": 0
                               },
-                              "comment": "After the barriers have finished moving, start the boss fight music.\nAlso set the variable to start the boss logic. "
+                              "comment": "After the gate has finished moving, start the boss fight music.\nAlso set the variable to start the boss logic. "
                             },
                             {
                               "type": "BuiltinCommonInstructions::Standard",
@@ -11878,9 +12078,9 @@
                                     "value": "Tween::HasFinished"
                                   },
                                   "parameters": [
-                                    "Barrier",
+                                    "Boss_Gate",
                                     "Tween",
-                                    "\"BossBarrierMoveY\""
+                                    "\"BossGateMoveY\""
                                   ]
                                 },
                                 {

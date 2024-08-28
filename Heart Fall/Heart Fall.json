@@ -5690,6 +5690,22 @@
         "name": "Run25",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "GateSprite.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "GateSprite.tmj",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "BigGateSprite.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "BigGateSprite.tmj",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5826,6 +5842,18 @@
       "name": "CoyoteTime",
       "type": "string",
       "value": "0.0833"
+    },
+    {
+      "folded": true,
+      "name": "Finished_Tutorial",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "Entered_Boss_Room",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

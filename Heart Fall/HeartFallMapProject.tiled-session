@@ -9,26 +9,52 @@
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
+            "scaleInDock": 0.8142,
+            "scaleInEditor": 1
+        },
+        "/Users/Cassian/Downloads/Main stuff.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "BigGateSprite.tmj": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 16,
+                "y": 79.5
+            }
+        },
+        "BigGateSprite.tmj#Main stuff": {
+            "scaleInDock": 1
+        },
+        "GateSprite.tmj": {
+            "scale": 0.86,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 16.27906976744191,
+                "y": 64.53488372093022
+            }
+        },
+        "GateSprite.tmj#Main stuff": {
+            "scaleInDock": 1
+        },
         "Heart Fall Map 1.tmj": {
-            "scale": 0.23,
+            "scale": 0.3057,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1149.9999999999998,
-                "y": 286.95652173913027
+                "x": 2495.91102387962,
+                "y": 829.2443572129538
             }
         },
         "Heart Fall Map 1.tmj#Main stuff": {
-            "scaleInDock": 0.8142
+            "scaleInDock": 0.4725
         },
         "assets/Level1.json": {
             "scale": 0.47,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 869.1489361702128,
-                "y": 385.1063829787234
+                "x": 1463.8297872340424,
+                "y": 320.2127659574469
             }
         },
         "assets/Level1.json#Tiles": {
@@ -37,15 +63,26 @@
         }
     },
     "last.exportedFilePath": "/Users/Cassian/Downloads/School - Local/CMPM80K/GDevelop School Projects/Heart-Fall/Heart Fall",
+    "last.externalTilesetPath": "/Users/Cassian/Downloads",
+    "last.imagePath": "/Users/Cassian/Downloads/School - Local/CMPM80K/GDevelop School Projects/Heart-Fall/Heart Fall",
     "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
+    "map.height": 5,
     "map.lastUsedFormat": "json",
+    "map.renderOrder": "3",
+    "map.width": 1,
     "openFiles": [
         "Heart Fall Map 1.tmj",
-        "assets/Level1.json"
+        "assets/Level1.json",
+        "GateSprite.tmj",
+        "BigGateSprite.tmj",
+        "/Users/Cassian/Downloads/Main stuff.tsx"
     ],
     "project": "HeartFallMapProject.tiled-project",
-    "property.type": "Platform",
+    "property.type": "Gate",
     "recentFiles": [
+        "/Users/Cassian/Downloads/Main stuff.tsx",
+        "BigGateSprite.tmj",
+        "GateSprite.tmj",
         "assets/Level1.json",
         "Heart Fall Map 1.tmj"
     ]

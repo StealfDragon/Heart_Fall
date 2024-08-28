@@ -2346,6 +2346,14 @@
                  "type":"Platform"
                 }, 
                 {
+                 "id":3,
+                 "type":"Gate"
+                }, 
+                {
+                 "id":4,
+                 "type":"Gate"
+                }, 
+                {
                  "id":6,
                  "properties":[
                         {
@@ -2358,6 +2366,14 @@
                             }
                         }],
                  "type":"Platform"
+                }, 
+                {
+                 "id":15,
+                 "type":"Gate"
+                }, 
+                {
+                 "id":16,
+                 "type":"Gate"
                 }, 
                 {
                  "id":21,
