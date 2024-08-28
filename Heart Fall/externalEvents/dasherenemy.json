@@ -17,54 +17,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Initialization",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "SpearSkeleton",
-                    "Animation",
-                    "=",
-                    "\"Idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "SpearSkeleton",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Dasher Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -80,181 +32,10 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CenterX"
+                        "value": "DepartScene"
                       },
                       "parameters": [
-                        "HeroHitbox",
-                        "<",
-                        "SpearSkeleton.X()-16"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "SpearSkeleton",
-                        "Flippable",
-                        "yes"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CenterX"
-                      },
-                      "parameters": [
-                        "HeroHitbox",
-                        ">",
-                        "SpearSkeleton.X()+16"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "FlippableCapability::FlippableBehavior::FlipX"
-                      },
-                      "parameters": [
-                        "SpearSkeleton",
-                        "Flippable",
-                        "no"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "The Dasher enemy should only start moving if the player is on the ground, and roughly on the same platform as the dasher.\nThis is being checked by comparing the Y position of the player against the Y position of the dasher.\nThe Dasher enemy should only move if they are on screen or about to be on screen. This is checked based off the Dasher's X position vs the center of the camera, and that the value is less than 1/2 the screen width (640).\nThis also only moves if the dasher is facing the direction of the player, by checking if the player's X position is less than the dasher enemy's if it is facing left (unflipped), or if the player's X position is greater than the dasher's if it is facing right (flipped).\nThis should only occur if the dasher hasn't already started to dash."
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "HeroHitbox",
-                        "<=",
-                        "SpearSkeleton.Y()+80"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PosY"
-                      },
-                      "parameters": [
-                        "HeroHitbox",
-                        ">=",
-                        "SpearSkeleton.Y()-80"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Egal"
-                      },
-                      "parameters": [
-                        "abs(SpearSkeleton.X()-CameraX(\"\",0))",
-                        "<=",
-                        "640"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::IsOnFloor"
-                      },
-                      "parameters": [
-                        "HeroHitbox",
-                        "PlatformerObject"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "SpearSkeleton",
-                                "Flippable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "HeroHitbox",
-                                ">",
-                                "SpearSkeleton.X()"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlippedX"
-                              },
-                              "parameters": [
-                                "SpearSkeleton",
-                                "Flippable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PosX"
-                              },
-                              "parameters": [
-                                "HeroHitbox",
-                                "<",
-                                "SpearSkeleton.X()"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "SpearSkeleton",
-                        "StartDash",
-                        "=",
-                        "0"
+                        ""
                       ]
                     }
                   ],
@@ -267,26 +48,8 @@
                         "SpearSkeleton",
                         "Animation",
                         "=",
-                        "\"Run\""
+                        "\"Idle\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "SpearSkeleton",
-                        "StartDash",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
                     }
                   ]
                 },
@@ -295,18 +58,141 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
                       },
                       "parameters": [
                         "SpearSkeleton",
-                        "StartDash",
+                        "Animation",
                         "=",
-                        "1"
+                        "\"Idle\""
                       ]
                     }
                   ],
                   "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "HeroHitbox",
+                            "SpearSkeleton.BoundingBoxCenterX()",
+                            "SpearSkeleton.BoundingBoxCenterY()",
+                            "0",
+                            "700",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "Animation",
+                            "=",
+                            "\"Run\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "HeroHitbox",
+                            "SpearSkeleton.BoundingBoxCenterX()",
+                            "SpearSkeleton.BoundingBoxCenterY()",
+                            "180",
+                            "700",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "Animation",
+                            "=",
+                            "\"Run\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "SpearSkeleton",
+                        "Animation",
+                        "=",
+                        "\"Run\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "Flippable"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "PlatformerObject"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -338,22 +224,110 @@
                         {
                           "type": {
                             "inverted": true,
-                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                            "value": "Raycast"
                           },
                           "parameters": [
-                            "SpearSkeleton",
-                            "Flippable"
+                            "HeroHitbox",
+                            "SpearSkeleton.BoundingBoxCenterX()",
+                            "SpearSkeleton.BoundingBoxCenterY()",
+                            "0",
+                            "80",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "PlatformBehavior::SimulateRightKey"
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
                             "SpearSkeleton",
-                            "PlatformerObject"
+                            "Animation",
+                            "=",
+                            "\"RunAttack\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Raycast"
+                          },
+                          "parameters": [
+                            "HeroHitbox",
+                            "SpearSkeleton.BoundingBoxCenterX()",
+                            "SpearSkeleton.BoundingBoxCenterY()",
+                            "180",
+                            "80",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "Animation",
+                            "=",
+                            "\"RunAttack\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "SpearSkeleton",
+                        "Animation",
+                        "=",
+                        "\"RunAttack\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "Animation"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "SpearSkeleton",
+                            "Animation",
+                            "=",
+                            "\"Run\""
                           ]
                         }
                       ]

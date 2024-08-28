@@ -43,7 +43,7 @@
                 "Hero",
                 "Animation",
                 "=",
-                "\"Dash\""
+                "\"Run Attack\""
               ]
             },
             {
@@ -128,7 +128,7 @@
                     "Hero",
                     "Animation",
                     "=",
-                    "\"Dash\""
+                    "\"Run Attack\""
                   ]
                 },
                 {
