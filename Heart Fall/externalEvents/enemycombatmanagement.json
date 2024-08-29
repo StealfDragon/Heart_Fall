@@ -171,7 +171,7 @@
                   "parameters": [
                     "",
                     "HeartsFlipped",
-                    "Enemy.X()",
+                    "Enemy.X()+50",
                     "Enemy.Y()+100",
                     ""
                   ]
