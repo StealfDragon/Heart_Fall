@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.06208856036363614,
+    "zoomFactor": 0.1917412472118622,
     "windowMask": false
   },
   "objectsGroups": [
@@ -943,17 +943,16 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
-      "customSize": true,
-      "depth": 1,
-      "height": 16,
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "HeroGuardHitbox",
-      "persistentUuid": "8f1a22bf-781a-4741-bd8b-9b6507d6e15f",
-      "width": 148,
-      "x": 314,
-      "y": 393,
+      "name": "BossLocation4",
+      "persistentUuid": "705515e1-e3b2-463f-b4ae-8eac7cf9d534",
+      "width": 0,
+      "x": 8388,
+      "y": 2192,
       "zOrder": 100058,
       "numberProperties": [],
       "stringProperties": [],
@@ -986,10 +985,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -8081,9 +8080,9 @@
       "effects": [],
       "behaviors": [
         {
-          "ignoreDefaultControls": true,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "ignoreDefaultControls": true,
           "maxSpeed": 500,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
@@ -9169,6 +9168,12 @@
           "name": "FirstSummon",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Phase3Finished",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -11343,16 +11348,7 @@
           "yGrabOffset": 0
         }
       ],
-      "content": {
-        "tilemapJsonFile": "BigGateSprite.tmj",
-        "tilesetJsonFile": "",
-        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
-        "displayMode": "visible",
-        "layerIndex": 0,
-        "levelIndex": 0,
-        "animationSpeedScale": 1,
-        "animationFps": 4
-      }
+      "animations": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -11375,7 +11371,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Flutter4",
+                  "image": "Flutter7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11411,7 +11407,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Flutter5",
+                  "image": "Flutter8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11447,7 +11443,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Flutter6",
+                  "image": "Flutter9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11499,6 +11495,8 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "jumpSpeed": 0,
+          "jumpSustainTime": 0,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -11506,8 +11504,6 @@
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
@@ -11563,6 +11559,180 @@
                       {
                         "x": 0,
                         "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "BossLocation4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BossLocation1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BossLocation-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HeartsFlipped",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Flutter",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Flutter4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 17
+                      },
+                      {
+                        "x": 64,
+                        "y": 17
+                      },
+                      {
+                        "x": 64,
+                        "y": 43
+                      },
+                      {
+                        "x": 4,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Flutter5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 17
+                      },
+                      {
+                        "x": 64,
+                        "y": 17
+                      },
+                      {
+                        "x": 64,
+                        "y": 43
+                      },
+                      {
+                        "x": 4,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Flutter6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 17
+                      },
+                      {
+                        "x": 64,
+                        "y": 17
+                      },
+                      {
+                        "x": 64,
+                        "y": 43
+                      },
+                      {
+                        "x": 4,
+                        "y": 43
                       }
                     ]
                   ]
@@ -11696,6 +11866,9 @@
         "objectName": "BossLocation3"
       },
       {
+        "objectName": "BossLocation4"
+      },
+      {
         "objectName": "Checkpoint"
       },
       {
@@ -11721,6 +11894,9 @@
       },
       {
         "objectName": "Hearts"
+      },
+      {
+        "objectName": "HeartsFlipped"
       },
       {
         "objectName": "Gravestone"
@@ -11854,6 +12030,46 @@
             "Animation",
             "=",
             "\"Rest\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Spawn"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossLocation1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossLocation2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossLocation3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossLocation4"
           ]
         }
       ],
@@ -12652,13 +12868,32 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "NumberObjectVariable"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "NecromancerBoss",
-                            "BossPhase",
-                            "=",
-                            "2"
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "BossPhase",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "BossPhase",
+                                "=",
+                                "4"
+                              ]
+                            }
                           ]
                         },
                         {
@@ -12696,6 +12931,17 @@
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "BossPhase",
+                                "=",
+                                "2"
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "NumberObjectVariable"
@@ -12772,10 +13018,119 @@
                                 "value": "SetNumberObjectVariable"
                               },
                               "parameters": [
+                                "SwordSkeleton",
+                                "HasAttacked",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "FirstSummon",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
                                 "NecromancerBoss",
                                 "BossPhase",
                                 "=",
                                 "3"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "BossPhase",
+                                "=",
+                                "4"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Spawn",
+                                "Location",
+                                "=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "SwordSkeleton",
+                                "Spawn.X()-40",
+                                "Spawn.Y()-300",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SwordSkeleton",
+                                "Scale",
+                                "=",
+                                "1.5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "SwordSkeleton",
+                                "Animation",
+                                "=",
+                                "\"Walk\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "UnPauseObjectTimer"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "\"MoveTimer\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "\"MoveTimer\""
                               ]
                             },
                             {
@@ -12798,6 +13153,17 @@
                                 "FirstSummon",
                                 "=",
                                 "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "BossPhase",
+                                "=",
+                                "5"
                               ]
                             }
                           ]
@@ -12826,12 +13192,13 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "ObjectTimer"
+                                "value": "CompareObjectTimer"
                               },
                               "parameters": [
                                 "NecromancerBoss",
                                 "\"MoveTimer\"",
-                                "1"
+                                ">=",
+                                "5"
                               ]
                             },
                             {
@@ -12926,24 +13293,34 @@
                               "parameters": [
                                 "NecromancerBoss",
                                 "Tween",
-                                "\"MoveToPos1\""
+                                "\"MoveToPos3\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Phase3Finished",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "FirstSummon",
+                                "=",
+                                "0"
                               ]
                             }
                           ]
                         }
                       ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Once the boss passes phase 10, there are no new movements, so reset to phase 1."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -12956,27 +13333,151 @@
                             "NecromancerBoss",
                             "BossPhase",
                             "=",
-                            "3"
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "\"MoveTimer\"",
+                                ">=",
+                                "5"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos4X\"",
+                                "BossLocation4.CenterX()-150",
+                                "\"linear\"",
+                                "2",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos1Y\"",
+                                "BossLocation4.CenterY()-80",
+                                "\"linear\"",
+                                "2",
+                                "1"
+                              ]
+                            }
                           ]
                         },
                         {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "NecromancerBoss",
-                            "BossPhase",
-                            "=",
-                            "1"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Tween::Exists"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos4X\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::HasFinished"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos4X\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::Exists"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos4Y\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::HasFinished"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos4Y\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Flippable",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos4X\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::RemoveTween"
+                              },
+                              "parameters": [
+                                "NecromancerBoss",
+                                "Tween",
+                                "\"MoveToPos4Y\""
+                              ]
+                            }
                           ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     }
