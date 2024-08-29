@@ -131,7 +131,7 @@
                   "parameters": [
                     "",
                     "Hearts",
-                    "Enemy.X()+250",
+                    "Enemy.X()+300",
                     "Enemy.Y()+100",
                     ""
                   ]
