@@ -259,7 +259,7 @@
       "persistentUuid": "a4c364ef-f865-4599-b1aa-3c63454e1413",
       "width": 324,
       "x": 100,
-      "y": 392,
+      "y": 200,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -269,13 +269,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 25,
+      "height": 72,
       "layer": "",
       "name": "JumpAttack",
       "persistentUuid": "d37785db-0d93-4727-a93d-2525e48a4d06",
-      "width": 610,
-      "x": 341,
-      "y": 677,
+      "width": 324,
+      "x": 101,
+      "y": 450,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -591,7 +591,7 @@
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
-        "tint": "0;0;0",
+        "tint": "236;12;225",
         "bitmapFontResourceName": "DogicaTake4.fnt",
         "textureAtlasResourceName": "DogicaTake4_0.png",
         "align": "left",
@@ -740,16 +740,6 @@
             "GamepadControls",
             "=",
             "KeyboardControls.Y()"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "JumpAttack",
-            "=",
-            "SceneWindowWidth()/2"
           ]
         }
       ],

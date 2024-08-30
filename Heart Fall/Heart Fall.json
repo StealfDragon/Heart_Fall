@@ -11611,6 +11611,61 @@
         "name": "Flutter9",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Possible GameOver Art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Possible GameOver Art.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite588.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite588",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite589.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite589",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "—Pngtree—pixel abstract glitch skull pixel_6470577.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "—Pngtree—pixel abstract glitch skull pixel_6470577.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/—Pngtree—pixel abstract glitch skull pixel_6470577.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "—Pngtree—pixel abstract glitch skull pixel_6470577",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "CastlevaniaGameOver.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "CastlevaniaGameOver.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -11779,6 +11834,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/winscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameoverscreen"
     }
   ],
   "externalEvents": [
