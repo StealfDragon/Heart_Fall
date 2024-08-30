@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4541455313490593,
+    "zoomFactor": 0.07831284347997147,
     "windowMask": false
   },
   "objectsGroups": [
@@ -11832,6 +11832,55 @@
       "behaviors": [],
       "animations": [
         {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle26",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Open",
           "useMultipleDirections": false,
           "directions": [
@@ -12167,55 +12216,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Open20",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 20
-                      },
-                      {
-                        "x": 112,
-                        "y": 20
-                      },
-                      {
-                        "x": 112,
-                        "y": 100
-                      },
-                      {
-                        "x": 0,
-                        "y": 100
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle26",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -12680,6 +12680,40 @@
                 "CameraWidth(\"GUI\",0)"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Chest",
+            "Direction",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Chest",
+            "Flippable",
+            "yes"
           ]
         }
       ]
