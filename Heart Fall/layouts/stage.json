@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.24184490981291112,
+    "zoomFactor": 0.21179939769209144,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1017,6 +1017,22 @@
           "value": false
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chest",
+      "persistentUuid": "aab4fe7e-9219-4d78-969c-c04116a9e2ec",
+      "width": 0,
+      "x": 1360,
+      "y": 387,
+      "zOrder": 100063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -12086,9 +12102,32 @@
           "name": "Contains",
           "type": "string",
           "value": "Health"
+        },
+        {
+          "name": "Opened",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasInteracted",
+          "type": "boolean",
+          "value": false
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "White Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -12514,6 +12553,25 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewBitmapText",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "E - Open",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "assets/DogicaTake4_0.png",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -12678,6 +12736,9 @@
       },
       {
         "objectName": "Chest"
+      },
+      {
+        "objectName": "NewBitmapText"
       }
     ]
   },

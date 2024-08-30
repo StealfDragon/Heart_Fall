@@ -12107,6 +12107,15 @@
         "name": "Grow7",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DogicaTake4_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/DogicaTake4_0.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
