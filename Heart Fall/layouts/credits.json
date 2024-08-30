@@ -50,7 +50,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "- GUI Assets -\n\nHUD: Adwitr on Itch.io / Mounir Tohami\n\n\n- World Art Assets -\n\nMenu Art: Lashman on Mastodon\nMap Tileset: ACTG on Itch.io\nPlayer Character: CraftPix.net\nMonsters: CraftPix.net\n\n\n- Sound Assets -\n\nMusic: Original Work by Andrew Mylius\nSword Sound Effect: \nOther Sounds: Foley by sgnossner\n\n\n- Game Design and Development -\n\nRobert Lai\nCassian Jones\nEthan Staneart\n\n\nPress the space bar to return to the main menu.",
+        "text": "- GUI Assets -\n\nHUD: Adwitr on Itch.io / Mounir Tohami\n\n\n- Art Assets -\n\nMenu Art: Lashman on Mastodon\nMap Tileset: ACTG on Itch.io\nPlayer Character: CraftPix.net\nMonsters: CraftPix.net\nGame Over Skull: PNGTree.com\n\n- Sound Assets -\n\nMusic: Original Works by Andrew Mylius\nSword Sound Effect: \nOther Sounds: Foley by sgnossner\n\n- Game Design and Development -\n\nRobert Lai\nCassian Jones\nEthan Staneart\n\n\nPress the space bar to return to the main menu.",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
