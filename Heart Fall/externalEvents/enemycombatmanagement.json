@@ -378,6 +378,17 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Gravestone",
+                "Animation",
+                "=",
+                "\"Grow\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [

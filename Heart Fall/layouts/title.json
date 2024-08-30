@@ -549,7 +549,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Keyboard:\nMenu:\nMove - W or S\nSelect - K\n\nIn Game: \nMove - A or D\nJump - J\nAttack - K\nPower-Up - O",
+        "text": "Keyboard:\nMenu:\nMove - W or S\nSelect - K\n\nIn Game: \nMove - A or D\nJump - Space\nAttack - K\nPower-Up - O",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
