@@ -171,7 +171,7 @@
                   "parameters": [
                     "",
                     "HeartsFlipped",
-                    "Enemy.X()",
+                    "Enemy.X()+50",
                     "Enemy.Y()+100",
                     ""
                   ]
@@ -374,6 +374,17 @@
                 "Enemy.CenterX() - 88",
                 "Enemy.CenterY() - 104",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Gravestone",
+                "Animation",
+                "=",
+                "\"Grow\""
               ]
             },
             {

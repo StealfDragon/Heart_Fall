@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15201769560005218,
+    "zoomFactor": 0.06418220711330666,
     "windowMask": false
   },
   "objectsGroups": [
@@ -36,9 +36,6 @@
         },
         {
           "name": "HeroHitbox"
-        },
-        {
-          "name": "Platform"
         },
         {
           "name": "HeroAttackHitbox"
@@ -210,23 +207,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9998000399920015,
-      "height": 4222.155568886223,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CameraRoom",
-      "persistentUuid": "bf18aaa7-2f1e-4106-a397-dc00d5853348",
-      "width": 10000,
-      "x": -286,
-      "y": -1337,
-      "zOrder": -1000,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "height": 96,
       "layer": "GUI",
       "name": "GUIMain",
@@ -318,31 +298,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 4230.77,
-      "layer": "",
-      "locked": true,
-      "name": "LevelMap",
-      "persistentUuid": "c18fbb69-466e-4f60-a608-8faedd863c81",
-      "width": 10000,
-      "x": -286,
-      "y": -1337,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
-      "height": 1157,
+      "height": 1149,
       "layer": "",
       "name": "BossRoom",
       "persistentUuid": "1f3e5e6b-3de6-45fb-a929-6ef948808153",
-      "width": 2117,
+      "width": 2786,
       "x": 7408,
-      "y": 1646,
+      "y": 1648,
       "zOrder": 100057,
       "numberProperties": [],
       "stringProperties": [],
@@ -380,21 +343,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Checkpoint",
-      "persistentUuid": "619310c7-de71-4842-b761-43e4ccdac666",
-      "width": 0,
-      "x": 9472,
-      "y": -1572,
-      "zOrder": 10012,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 301,
@@ -406,24 +354,6 @@
       "x": -57,
       "y": 261,
       "zOrder": 100011,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 4230.769230769232,
-      "keepRatio": true,
-      "layer": "",
-      "locked": true,
-      "name": "Platform",
-      "persistentUuid": "3d2af6a5-5053-4ae4-966a-8cd5859c4a72",
-      "width": 10000,
-      "x": -285,
-      "y": -1336,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -619,8 +549,8 @@
       "name": "NecromancerBoss",
       "persistentUuid": "eb07de96-7a4d-49e6-967c-46684e41f370",
       "width": 431,
-      "x": 8256,
-      "y": 2117,
+      "x": 8654,
+      "y": 2332,
       "zOrder": 100030,
       "numberProperties": [],
       "stringProperties": [],
@@ -636,8 +566,8 @@
       "name": "BonePlatform",
       "persistentUuid": "7132ea62-040e-4045-8c16-4aa2a66c58b0",
       "width": 150,
-      "x": 8399,
-      "y": 2484,
+      "x": 8780,
+      "y": 2605,
       "zOrder": 100031,
       "numberProperties": [],
       "stringProperties": [],
@@ -668,8 +598,8 @@
       "name": "BossLocation1",
       "persistentUuid": "42c171ba-35c2-4405-b652-4cbe40222557",
       "width": 0,
-      "x": 8432,
-      "y": 1921,
+      "x": 8827,
+      "y": 2060,
       "zOrder": 100038,
       "numberProperties": [],
       "stringProperties": [],
@@ -678,32 +608,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 480,
+      "depth": 0.9965397923875432,
+      "height": 576,
       "keepRatio": true,
       "layer": "",
       "name": "Barrier",
       "persistentUuid": "cfc2539b-0181-4549-92e7-bb2baea16111",
-      "width": 96,
-      "x": 7406,
-      "y": 1642,
+      "width": 95.66782006920414,
+      "x": 7408,
+      "y": 1645,
       "zOrder": 100041,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Checkpoint",
-      "persistentUuid": "320daa57-fb77-4341-b64a-c1e8088989aa",
-      "width": 0,
-      "x": 6990,
-      "y": 2155,
-      "zOrder": 100042,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -717,8 +631,8 @@
       "name": "Spawn",
       "persistentUuid": "db67b24d-ec9b-483f-a02b-1b06535070c9",
       "width": 0,
-      "x": 8872,
-      "y": 2541,
+      "x": 9435,
+      "y": 2724,
       "zOrder": 100043,
       "numberProperties": [],
       "stringProperties": [],
@@ -740,8 +654,8 @@
       "name": "Spawn",
       "persistentUuid": "12618aa4-d64c-4a5a-b9d2-fd6928fc1c4c",
       "width": 0,
-      "x": 9170,
-      "y": 2541,
+      "x": 9899,
+      "y": 2724,
       "zOrder": 100044,
       "numberProperties": [],
       "stringProperties": [],
@@ -763,8 +677,8 @@
       "name": "Spawn",
       "persistentUuid": "73690993-e916-4f8d-8d00-575d905b2397",
       "width": 0,
-      "x": 8006,
-      "y": 2541,
+      "x": 8193,
+      "y": 2733,
       "zOrder": 100045,
       "numberProperties": [],
       "stringProperties": [],
@@ -786,8 +700,8 @@
       "name": "Spawn",
       "persistentUuid": "250dea26-b359-4d83-9399-bf7f5aef4c2a",
       "width": 0,
-      "x": 7693,
-      "y": 2541,
+      "x": 7710,
+      "y": 2733,
       "zOrder": 100046,
       "numberProperties": [],
       "stringProperties": [],
@@ -809,8 +723,8 @@
       "name": "Spawn",
       "persistentUuid": "82b03730-8d00-48ea-a4ac-a32787a1a9e0",
       "width": 0,
-      "x": 9020,
-      "y": 2541,
+      "x": 9679,
+      "y": 2729,
       "zOrder": 100047,
       "numberProperties": [],
       "stringProperties": [],
@@ -832,8 +746,8 @@
       "name": "Spawn",
       "persistentUuid": "8e6f3d4d-59d6-4751-b99e-54c2190a3558",
       "width": 0,
-      "x": 7845,
-      "y": 2541,
+      "x": 7953,
+      "y": 2734,
       "zOrder": 100048,
       "numberProperties": [],
       "stringProperties": [],
@@ -855,8 +769,8 @@
       "name": "Left",
       "persistentUuid": "e3a63b10-36cf-454d-97bb-0f03b84b4427",
       "width": 0,
-      "x": 8755,
-      "y": 2542,
+      "x": 9233,
+      "y": 2732,
       "zOrder": 100049,
       "numberProperties": [],
       "stringProperties": [],
@@ -871,8 +785,8 @@
       "name": "Right",
       "persistentUuid": "af98cb33-f237-4131-bc27-9a193ae5ccf2",
       "width": 0,
-      "x": 9330,
-      "y": 2539,
+      "x": 10129,
+      "y": 2731,
       "zOrder": 100050,
       "numberProperties": [],
       "stringProperties": [],
@@ -887,8 +801,8 @@
       "name": "Left",
       "persistentUuid": "b0fc6963-ee85-49bd-9eda-df9109c5de6f",
       "width": 0,
-      "x": 7650,
-      "y": 2541,
+      "x": 7505,
+      "y": 2732,
       "zOrder": 100051,
       "numberProperties": [],
       "stringProperties": [],
@@ -903,8 +817,8 @@
       "name": "Right",
       "persistentUuid": "85e23a6c-7118-4332-b71a-b9144fb84777",
       "width": 0,
-      "x": 8110,
-      "y": 2544,
+      "x": 8401,
+      "y": 2732,
       "zOrder": 100052,
       "numberProperties": [],
       "stringProperties": [],
@@ -919,8 +833,8 @@
       "name": "BossLocation2",
       "persistentUuid": "903d949f-5fe8-4df5-b844-3b0bac232202",
       "width": 0,
-      "x": 8822,
-      "y": 1921,
+      "x": 9820,
+      "y": 2048,
       "zOrder": 100055,
       "numberProperties": [],
       "stringProperties": [],
@@ -935,8 +849,8 @@
       "name": "BossLocation3",
       "persistentUuid": "68aedde8-bd0d-4bb7-b903-dce01873e3b8",
       "width": 0,
-      "x": 7707,
-      "y": 1921,
+      "x": 7706,
+      "y": 2078,
       "zOrder": 100056,
       "numberProperties": [],
       "stringProperties": [],
@@ -951,76 +865,191 @@
       "name": "BossLocation4",
       "persistentUuid": "705515e1-e3b2-463f-b4ae-8eac7cf9d534",
       "width": 0,
-      "x": 8388,
-      "y": 2192,
+      "x": 8811,
+      "y": 2391,
       "zOrder": 100058,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 90,
-      "customSize": true,
-      "depth": 1,
-      "height": 17,
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "HeroGuardHitbox",
-      "persistentUuid": "c6524a73-3c6e-4bd2-9d5e-c0500b15e64b",
-      "width": 148,
-      "x": 358,
-      "y": 394,
+      "name": "Chest",
+      "persistentUuid": "e04d0a73-e47b-4425-89c5-3b6dd78aeb6c",
+      "width": 0,
+      "x": 8208,
+      "y": 6,
       "zOrder": 100059,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Contains",
+          "type": "string",
+          "value": "Damage"
+        },
+        {
+          "folded": true,
+          "name": "Direction",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chest",
+      "persistentUuid": "246df839-89c9-472b-9d96-60409c292901",
+      "width": 0,
+      "x": 7244,
+      "y": 389,
+      "zOrder": 100060,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chest",
+      "persistentUuid": "f058aa3b-6737-47d9-aaab-97a486a834e3",
+      "width": 0,
+      "x": 7919,
+      "y": 1544,
+      "zOrder": 100061,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Contains",
+          "type": "string",
+          "value": "Damage"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chest",
+      "persistentUuid": "25bb9d8e-3380-485a-952e-f56752b60169",
+      "width": 0,
+      "x": 99,
+      "y": -379,
+      "zOrder": 100062,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Direction",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chest",
+      "persistentUuid": "aab4fe7e-9219-4d78-969c-c04116a9e2ec",
+      "width": 0,
+      "x": 1360,
+      "y": 387,
+      "zOrder": 100063,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 4615.383652173914,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "LevelMap",
+      "persistentUuid": "fe720989-06a3-4114-9e12-22413b47009a",
+      "width": 11057.69,
+      "x": -285,
+      "y": -1336,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 4615.383652173914,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "Platform",
+      "persistentUuid": "2461a261-fdbb-40a5-bb36-3256398f7bd4",
+      "width": 11057.69,
+      "x": -285,
+      "y": -1336,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 576,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Barrier",
+      "persistentUuid": "f06fac2b-3177-407b-b075-0617aaa1e679",
+      "width": 96,
+      "x": 7408,
+      "y": 5877,
+      "zOrder": 100066,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 4615.38,
+      "layer": "",
+      "name": "CameraRoom",
+      "persistentUuid": "124c814b-6a71-4785-9d8f-4d2e1cdba9a7",
+      "width": 11057.69,
+      "x": -285,
+      "y": -1336,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "name": "LevelMap",
-      "type": "TileMap::TileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "tilemapJsonFile": "Heart Fall Map 1.tmj",
-        "tilesetJsonFile": "",
-        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
-        "displayMode": "all",
-        "layerIndex": 0,
-        "animationSpeedScale": 1,
-        "animationFps": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Platform",
-      "type": "TileMap::CollisionMask",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "content": {
-        "tilemapJsonFile": "Heart Fall Map 1.tmj",
-        "tilesetJsonFile": "",
-        "collisionMaskTag": "Platform",
-        "debugMode": true,
-        "fillColor": "208;2;27",
-        "outlineColor": "208;2;27",
-        "fillOpacity": 64,
-        "outlineOpacity": 128,
-        "outlineSize": 1
-      }
-    },
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
@@ -1542,6 +1571,25 @@
         "textAlignment": "",
         "characterSize": 24,
         "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "GUIBitmapLives",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "LIVES: ",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "#ffffff",
+        "bitmapFontResourceName": "dogicapixel24.fnt",
+        "textureAtlasResourceName": "dogicapixel24_0.png",
+        "align": "left",
+        "wordWrap": true
       }
     },
     {
@@ -11330,6 +11378,25 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "HeroGuardHitbox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": []
+    },
+    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Hearts",
@@ -11545,6 +11612,271 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Grow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.5,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grow",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grow2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grow3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grow4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grow5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grow6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grow7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 0
+                      },
+                      {
+                        "x": 96,
+                        "y": 96
+                      },
+                      {
+                        "x": 0,
+                        "y": 96
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -11723,11 +12055,516 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "HeroGuardHitbox",
+      "name": "Chest",
       "type": "Sprite",
       "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Direction",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "Contains",
+          "type": "string",
+          "value": "Health"
+        },
+        {
+          "name": "Opened",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasInteracted",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "White Outline",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 4
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle26",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 20
+                      },
+                      {
+                        "x": 112,
+                        "y": 100
+                      },
+                      {
+                        "x": 0,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewBitmapText",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "E - Open",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "assets/DogicaTake4_0.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LevelMap",
+      "type": "TileMap::TileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "tilemapJsonFile": "Heart Fall Final Map.tmj",
+        "tilesetJsonFile": "",
+        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
+        "displayMode": "visible",
+        "layerIndex": 0,
+        "levelIndex": 0,
+        "animationSpeedScale": 1,
+        "animationFps": 4
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform",
+      "type": "TileMap::CollisionMask",
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -11739,1791 +12576,17 @@
           "yGrabOffset": 0
         }
       ],
-      "animations": [
-        {
-          "name": "HeroAttackHitbox",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "HeroAttackHitbox-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "___",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite636",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite637",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite638",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite639",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite640",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite641",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite642",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite643",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite644",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite645",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite646",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite647",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite648",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite649",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite650",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite651",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite652",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite653",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite654",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite655",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite656",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite657",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite658",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite659",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite660",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite661",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite662",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite663",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite664",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite665",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite666",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite667",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite668",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite669",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite670",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite671",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite672",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite673",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite674",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite675",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite676",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite677",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite678",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite679",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite680",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite681",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite682",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite683",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 100,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 96
-                      },
-                      {
-                        "x": 170,
-                        "y": 238
-                      },
-                      {
-                        "x": 100,
-                        "y": 238
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "content": {
+        "tilemapJsonFile": "Heart Fall Final Map.tmj",
+        "tilesetJsonFile": "",
+        "collisionMaskTag": "Platform",
+        "debugMode": false,
+        "fillColor": "208;2;27",
+        "outlineColor": "208;2;27",
+        "fillOpacity": 64,
+        "outlineOpacity": 128,
+        "outlineSize": 1
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -13557,6 +12620,9 @@
           },
           {
             "objectName": "GUIStaminaBar"
+          },
+          {
+            "objectName": "GUIBitmapLives"
           },
           {
             "objectName": "GUILivesLabel"
@@ -13684,7 +12750,10 @@
         "objectName": "Spawn"
       },
       {
-        "objectName": "___"
+        "objectName": "Chest"
+      },
+      {
+        "objectName": "NewBitmapText"
       }
     ]
   },
@@ -13947,6 +13016,40 @@
                 "CameraWidth(\"GUI\",0)"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Chest",
+            "Direction",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Chest",
+            "Flippable",
+            "yes"
           ]
         }
       ]

@@ -253,30 +253,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 240,
+      "depth": 1,
+      "height": 293,
+      "keepRatio": true,
       "layer": "",
       "name": "KeyboardControls",
       "persistentUuid": "a4c364ef-f865-4599-b1aa-3c63454e1413",
-      "width": 324,
-      "x": 100,
-      "y": 392,
+      "width": 261,
+      "x": 88,
+      "y": 300,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "layer": "",
-      "name": "JumpAttack",
-      "persistentUuid": "d37785db-0d93-4727-a93d-2525e48a4d06",
-      "width": 610,
-      "x": 341,
-      "y": 677,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -549,33 +535,14 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Keyboard:\nMenu:\nMove - W or S\nSelect - K\n\nIn Game: \nMove - A or D\nJump - J\nAttack - K\nPower-Up - O",
+        "text": "Controls:\n\nMenu:\nMove - W or S\nSelect - K\n\nIn Game: \nMove - A/D\nJump - Space\nInteract - E\nAttack - K\nDash - O\n\n(you cannot attack when jumping)",
         "opacity": 255,
-        "scale": 1,
+        "scale": 0.75,
         "fontSize": 20,
         "tint": "236;12;225",
         "bitmapFontResourceName": "DogicaTake4.fnt",
         "textureAtlasResourceName": "DogicaTake4_0.png",
         "align": "left",
-        "wordWrap": true
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "GamepadControls",
-      "type": "BitmapText::BitmapTextObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "text": "Gamepad:\nMenu:\nMove - D-Pad\nSelect - Cross or A\n\nIn Game:\nMove: D-Pad or Left Stick\nJump: Cross or A\nAttack: Square or X\nDash: Circle or B",
-        "opacity": 255,
-        "scale": 1,
-        "fontSize": 20,
-        "tint": "#ffffff",
-        "bitmapFontResourceName": "DogicaTake4.fnt",
-        "textureAtlasResourceName": "DogicaTake4_0.png",
-        "align": "right",
         "wordWrap": true
       }
     },
@@ -589,9 +556,9 @@
       "content": {
         "text": "(you cannot attack when jumping)",
         "opacity": 255,
-        "scale": 1,
+        "scale": 0.75,
         "fontSize": 20,
-        "tint": "0;0;0",
+        "tint": "236;12;225",
         "bitmapFontResourceName": "DogicaTake4.fnt",
         "textureAtlasResourceName": "DogicaTake4_0.png",
         "align": "left",
@@ -628,9 +595,6 @@
       },
       {
         "objectName": "KeyboardControls"
-      },
-      {
-        "objectName": "GamepadControls"
       },
       {
         "objectName": "JumpAttack"
@@ -730,26 +694,6 @@
             "yes",
             "100",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "GamepadControls",
-            "=",
-            "KeyboardControls.Y()"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetCenterX"
-          },
-          "parameters": [
-            "JumpAttack",
-            "=",
-            "SceneWindowWidth()/2"
           ]
         }
       ],

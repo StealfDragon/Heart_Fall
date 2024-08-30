@@ -12,12 +12,38 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
-        "Heart Fall Map 1.tmj": {
-            "scale": 0.23,
-            "selectedLayer": 2,
+        "#Main stuff": {
+            "scaleInDock": 0.677,
+            "scaleInEditor": 1
+        },
+        "BigGateSprite.tmj": {
+            "scale": 1.57,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 1149.9999999999998,
-                "y": 286.95652173913027
+                "x": -10.191082802547783,
+                "y": 79.9363057324841
+            }
+        },
+        "BigGateSprite.tmj#Main stuff": {
+            "scaleInDock": 1
+        },
+        "Heart Fall Final Map.tmj": {
+            "scale": 0.5682,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 2613.5163674762407,
+                "y": 458.4653291094685
+            }
+        },
+        "Heart Fall Final Map.tmj#Main stuff": {
+            "scaleInDock": 0.677
+        },
+        "Heart Fall Map 1.tmj": {
+            "scale": 0.3458,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2779.063042220937,
+                "y": 1056.9693464430306
             }
         },
         "Heart Fall Map 1.tmj#Main stuff": {
@@ -27,8 +53,8 @@
             "scale": 0.47,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 869.1489361702128,
-                "y": 385.1063829787234
+                "x": 870.2127659574469,
+                "y": 384.04255319148945
             }
         },
         "assets/Level1.json#Tiles": {
@@ -38,7 +64,10 @@
     },
     "last.exportedFilePath": "/Users/Cassian/Downloads/School - Local/CMPM80K/GDevelop School Projects/Heart-Fall/Heart Fall",
     "lastUsedTilesetExportFilter": "JSON tileset files (*.tsj *.json)",
+    "map.height": 6,
     "map.lastUsedFormat": "json",
+    "map.renderOrder": "3",
+    "map.width": 1,
     "openFiles": [
         "Heart Fall Map 1.tmj",
         "assets/Level1.json"
@@ -46,6 +75,7 @@
     "project": "HeartFallMapProject.tiled-project",
     "property.type": "Platform",
     "recentFiles": [
+        "BigGateSprite.tmj",
         "assets/Level1.json",
         "Heart Fall Map 1.tmj"
     ]
