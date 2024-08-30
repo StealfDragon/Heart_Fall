@@ -695,16 +695,6 @@
             "100",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "GamepadControls",
-            "=",
-            "KeyboardControls.Y()"
-          ]
         }
       ],
       "events": [
