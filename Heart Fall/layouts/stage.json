@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1287890254665107,
+    "zoomFactor": 0.06418220711330666,
     "windowMask": false
   },
   "objectsGroups": [
@@ -36,9 +36,6 @@
         },
         {
           "name": "HeroHitbox"
-        },
-        {
-          "name": "Platform"
         },
         {
           "name": "HeroAttackHitbox"
@@ -990,7 +987,7 @@
       "keepRatio": true,
       "layer": "",
       "locked": true,
-      "name": "LevelMap2",
+      "name": "LevelMap",
       "persistentUuid": "fe720989-06a3-4114-9e12-22413b47009a",
       "width": 11057.69,
       "x": -285,
@@ -1008,7 +1005,7 @@
       "keepRatio": true,
       "layer": "",
       "locked": true,
-      "name": "Platform2",
+      "name": "Platform",
       "persistentUuid": "2461a261-fdbb-40a5-bb36-3256398f7bd4",
       "width": 11057.69,
       "x": -285,
@@ -1034,53 +1031,25 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 4615.38,
+      "layer": "",
+      "name": "CameraRoom",
+      "persistentUuid": "124c814b-6a71-4785-9d8f-4d2e1cdba9a7",
+      "width": 11057.69,
+      "x": -285,
+      "y": -1336,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "name": "LevelMap",
-      "type": "TileMap::TileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "tilemapJsonFile": "Heart Fall Map 1.tmj",
-        "tilesetJsonFile": "",
-        "tilemapAtlasImage": "egypt_tomb_v1.1.png",
-        "displayMode": "all",
-        "layerIndex": 0,
-        "animationSpeedScale": 1,
-        "animationFps": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Platform",
-      "type": "TileMap::CollisionMask",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
-        }
-      ],
-      "content": {
-        "tilemapJsonFile": "Heart Fall Map 1.tmj",
-        "tilesetJsonFile": "",
-        "collisionMaskTag": "Platform",
-        "debugMode": true,
-        "fillColor": "208;2;27",
-        "outlineColor": "208;2;27",
-        "fillOpacity": 64,
-        "outlineOpacity": 128,
-        "outlineSize": 1
-      }
-    },
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
@@ -12576,7 +12545,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "LevelMap2",
+      "name": "LevelMap",
       "type": "TileMap::TileMap",
       "variables": [],
       "effects": [],
@@ -12594,11 +12563,19 @@
     },
     {
       "assetStoreId": "",
-      "name": "Platform2",
+      "name": "Platform",
       "type": "TileMap::CollisionMask",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ],
       "content": {
         "tilemapJsonFile": "Heart Fall Final Map.tmj",
         "tilesetJsonFile": "",
@@ -12777,12 +12754,6 @@
       },
       {
         "objectName": "NewBitmapText"
-      },
-      {
-        "objectName": "LevelMap2"
-      },
-      {
-        "objectName": "Platform2"
       }
     ]
   },
