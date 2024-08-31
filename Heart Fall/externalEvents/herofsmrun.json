@@ -45,6 +45,17 @@
                 "=",
                 "\"Run\""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "UnarmoredHero",
+                "Animation",
+                "=",
+                "\"Walk\""
+              ]
             }
           ]
         },
@@ -542,6 +553,16 @@
                     },
                     {
                       "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "UnarmoredHero",
+                        "Flippable",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetStringObjectVariable"
                       },
                       "parameters": [
@@ -705,6 +726,16 @@
                         "Hero",
                         "Flippable",
                         "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "UnarmoredHero",
+                        "Flippable",
+                        ""
                       ]
                     },
                     {
