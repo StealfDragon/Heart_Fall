@@ -303,8 +303,8 @@
       "layer": "",
       "name": "BossRoom",
       "persistentUuid": "1f3e5e6b-3de6-45fb-a929-6ef948808153",
-      "width": 2786,
-      "x": 7408,
+      "width": 2699,
+      "x": 7495,
       "y": 1648,
       "zOrder": 100057,
       "numberProperties": [],
@@ -599,8 +599,8 @@
       "name": "Spawn",
       "persistentUuid": "db67b24d-ec9b-483f-a02b-1b06535070c9",
       "width": 0,
-      "x": 9435,
-      "y": 2724,
+      "x": 9233,
+      "y": 2733,
       "zOrder": 100043,
       "numberProperties": [],
       "stringProperties": [],
@@ -622,8 +622,8 @@
       "name": "Spawn",
       "persistentUuid": "12618aa4-d64c-4a5a-b9d2-fd6928fc1c4c",
       "width": 0,
-      "x": 9899,
-      "y": 2724,
+      "x": 9940,
+      "y": 2733,
       "zOrder": 100044,
       "numberProperties": [],
       "stringProperties": [],
@@ -645,32 +645,9 @@
       "name": "Spawn",
       "persistentUuid": "73690993-e916-4f8d-8d00-575d905b2397",
       "width": 0,
-      "x": 8193,
-      "y": 2733,
+      "x": 8400,
+      "y": 2735,
       "zOrder": 100045,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "Location",
-          "type": "number",
-          "value": 6
-        }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Spawn",
-      "persistentUuid": "250dea26-b359-4d83-9399-bf7f5aef4c2a",
-      "width": 0,
-      "x": 7710,
-      "y": 2733,
-      "zOrder": 100046,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -689,10 +666,33 @@
       "keepRatio": true,
       "layer": "",
       "name": "Spawn",
+      "persistentUuid": "250dea26-b359-4d83-9399-bf7f5aef4c2a",
+      "width": 0,
+      "x": 7695,
+      "y": 2735,
+      "zOrder": 100046,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Location",
+          "type": "number",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawn",
       "persistentUuid": "82b03730-8d00-48ea-a4ac-a32787a1a9e0",
       "width": 0,
-      "x": 9679,
-      "y": 2729,
+      "x": 9588,
+      "y": 2732,
       "zOrder": 100047,
       "numberProperties": [],
       "stringProperties": [],
@@ -714,8 +714,8 @@
       "name": "Spawn",
       "persistentUuid": "8e6f3d4d-59d6-4751-b99e-54c2190a3558",
       "width": 0,
-      "x": 7953,
-      "y": 2734,
+      "x": 8050,
+      "y": 2735,
       "zOrder": 100048,
       "numberProperties": [],
       "stringProperties": [],
@@ -737,8 +737,8 @@
       "name": "Left",
       "persistentUuid": "e3a63b10-36cf-454d-97bb-0f03b84b4427",
       "width": 0,
-      "x": 9233,
-      "y": 2732,
+      "x": 9042,
+      "y": 2735,
       "zOrder": 100049,
       "numberProperties": [],
       "stringProperties": [],
@@ -785,8 +785,8 @@
       "name": "Right",
       "persistentUuid": "85e23a6c-7118-4332-b71a-b9144fb84777",
       "width": 0,
-      "x": 8401,
-      "y": 2732,
+      "x": 8593,
+      "y": 2733,
       "zOrder": 100052,
       "numberProperties": [],
       "stringProperties": [],
@@ -963,23 +963,6 @@
       "x": -285,
       "y": -1336,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 576,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Barrier",
-      "persistentUuid": "f06fac2b-3177-407b-b075-0617aaa1e679",
-      "width": 96,
-      "x": 7408,
-      "y": 5877,
-      "zOrder": 100066,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -12613,6 +12596,30 @@
       }
     },
     {
+      "assetStoreId": "",
+      "name": "Chest_Health_Text",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "+20 Health",
+        "opacity": 255,
+        "scale": 0.9,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "assets/DogicaTake4_0.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NPC",
@@ -14450,6 +14457,29 @@
     },
     {
       "assetStoreId": "",
+      "name": "Chest_Damage_Text",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "+10 Damage",
+        "opacity": 255,
+        "scale": 0.8,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "DogicaTake4.fnt",
+        "textureAtlasResourceName": "assets/DogicaTake4_0.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
       "name": "JanitorDialogue",
       "type": "BitmapText::BitmapTextObject",
       "variables": [],
@@ -15179,6 +15209,12 @@
             "objectName": "GUIStaminaBar"
           },
           {
+            "objectName": "GUIBitmapLives"
+          },
+          {
+            "objectName": "GUILivesLabel"
+          },
+          {
             "objectName": "GameOver"
           },
           {
@@ -15305,6 +15341,12 @@
       },
       {
         "objectName": "Chest"
+      },
+      {
+        "objectName": "Chest_Health_Text"
+      },
+      {
+        "objectName": "Chest_Damage_Text"
       },
       {
         "objectName": "OpenBitmapText"
@@ -16493,13 +16535,23 @@
                             },
                             {
                               "type": {
-                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                "value": "FlippableCapability::FlippableBehavior::FlipX"
                               },
                               "parameters": [
                                 "SwordSkeleton",
-                                "Scale",
+                                "Flippable",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "SwordSkeleton",
+                                "Direction",
                                 "=",
-                                "1.5"
+                                "\"Right\""
                               ]
                             },
                             {
@@ -16511,6 +16563,17 @@
                                 "Animation",
                                 "=",
                                 "\"Walk\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "SwordSkeleton",
+                                "Scale",
+                                "=",
+                                "1.5"
                               ]
                             },
                             {
@@ -16855,7 +16918,18 @@
                           ]
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "NecromancerBoss",
+                            "Flippable",
+                            "yes"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -16887,7 +16961,7 @@
                                 "NecromancerBoss",
                                 "Tween",
                                 "\"MoveToPos4X\"",
-                                "BossLocation4.CenterX()-150",
+                                "BossLocation4.CenterX()-200",
                                 "\"linear\"",
                                 "2",
                                 "2"
@@ -16960,16 +17034,6 @@
                             }
                           ],
                           "actions": [
-                            {
-                              "type": {
-                                "value": "FlippableCapability::FlippableBehavior::FlipX"
-                              },
-                              "parameters": [
-                                "NecromancerBoss",
-                                "Flippable",
-                                "yes"
-                              ]
-                            },
                             {
                               "type": {
                                 "value": "Tween::RemoveTween"
@@ -17353,7 +17417,7 @@
                   },
                   "parameters": [
                     "",
-                    "0.65",
+                    "0.46",
                     "",
                     "0"
                   ]
@@ -17364,7 +17428,7 @@
                   },
                   "parameters": [
                     "",
-                    "0.65",
+                    "0.46",
                     "\"DashEffect\"",
                     "0"
                   ]
@@ -17375,7 +17439,7 @@
                   },
                   "parameters": [
                     "",
-                    "0.65",
+                    "0.46",
                     "\"DeathEffect\"",
                     "0"
                   ]
@@ -17646,7 +17710,7 @@
                             "CutsceneCamera",
                             "Tween",
                             "\"BossSceneCameraY\"",
-                            "round(BossRoom.CenterY())-(CutsceneCamera.Height()/2)",
+                            "round(BossRoom.CenterY())-(CutsceneCamera.Height()/2)+150",
                             "\"linear\"",
                             "2000",
                             ""
@@ -17778,7 +17842,7 @@
                                 "Barrier",
                                 "Tween",
                                 "\"BossBarrierMoveY\"",
-                                "2124",
+                                "2224",
                                 "\"linear\"",
                                 "1800",
                                 ""

@@ -12126,6 +12126,16 @@
         "userAdded": true
       },
       {
+        "file": "PossibleGameOver.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "PossibleGameOver.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
         "alwaysLoaded": false,
         "file": "assets/NewSprite684.png",
         "kind": "image",

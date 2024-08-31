@@ -325,7 +325,7 @@
           },
           "parameters": [
             "",
-            "CastlevaniaGameOver.mp3",
+            "PossibleGameOver.wav",
             "",
             "50",
             "1"
