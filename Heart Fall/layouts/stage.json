@@ -6585,12 +6585,12 @@
         {
           "name": "enemyHP",
           "type": "number",
-          "value": 60
+          "value": 50
         },
         {
           "name": "enemyDMG",
           "type": "number",
-          "value": 20
+          "value": 10
         },
         {
           "folded": true,
@@ -8244,13 +8244,13 @@
           "folded": true,
           "name": "enemyHP",
           "type": "number",
-          "value": 50
+          "value": 40
         },
         {
           "folded": true,
           "name": "enemyDMG",
           "type": "number",
-          "value": 30
+          "value": 20
         }
       ],
       "effects": [],

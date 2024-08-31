@@ -562,52 +562,6 @@
                             ""
                           ]
                         }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "KeyFromTextPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "keyboardInteract"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Animation",
-                            "=",
-                            "\"Open\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "OpenBitmapText"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Opened",
-                            "True",
-                            ""
-                          ]
-                        }
                       ],
                       "events": [
                         {
@@ -653,6 +607,17 @@
                                 "\"White Outline\"",
                                 "no"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Chest",
+                                "Opened",
+                                "True",
+                                ""
+                              ]
                             }
                           ],
                           "events": [
@@ -672,17 +637,6 @@
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetBooleanObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Chest",
-                                    "Opened",
-                                    "True",
-                                    ""
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "SetNumberObjectVariable"
@@ -749,17 +703,6 @@
                                 }
                               ],
                               "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetBooleanObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Chest",
-                                    "Opened",
-                                    "True",
-                                    ""
-                                  ]
-                                },
                                 {
                                   "type": {
                                     "value": "SetNumberObjectVariable"

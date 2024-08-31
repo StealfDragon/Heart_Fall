@@ -488,6 +488,7 @@
               "comment": "Wait until the music is done playing before subtracting the life and restarting the scene.\n"
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -640,7 +641,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Title\"",
+                    "\"GameOverScreen\"",
                     ""
                   ]
                 }
