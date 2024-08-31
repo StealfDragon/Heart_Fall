@@ -640,7 +640,7 @@
                                 "value": "Cache"
                               },
                               "parameters": [
-                                "Chest_Interact_Prompt"
+                                "OpenBitmapText"
                               ]
                             },
                             {
