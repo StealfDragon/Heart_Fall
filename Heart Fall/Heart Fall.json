@@ -14551,6 +14551,12 @@
       "name": "CoyoteTime",
       "type": "string",
       "value": "0.0833"
+    },
+    {
+      "folded": true,
+      "name": "EnemyDied",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
