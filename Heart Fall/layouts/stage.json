@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.16244272268880194,
+    "zoomFactor": 0.07089634080729344,
     "windowMask": false
   },
   "objectsGroups": [
@@ -6585,12 +6585,12 @@
         {
           "name": "enemyHP",
           "type": "number",
-          "value": 40
+          "value": 60
         },
         {
           "name": "enemyDMG",
           "type": "number",
-          "value": 10
+          "value": 20
         },
         {
           "folded": true,
@@ -8244,13 +8244,13 @@
           "folded": true,
           "name": "enemyHP",
           "type": "number",
-          "value": 40
+          "value": 50
         },
         {
           "folded": true,
           "name": "enemyDMG",
           "type": "number",
-          "value": 20
+          "value": 30
         }
       ],
       "effects": [],
@@ -9326,7 +9326,7 @@
         {
           "name": "enemyHP",
           "type": "number",
-          "value": 60
+          "value": 100
         },
         {
           "name": "enemyDMG",

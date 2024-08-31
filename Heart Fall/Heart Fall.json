@@ -14585,6 +14585,12 @@
       "name": "EnemyDied",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "SkipText",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

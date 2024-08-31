@@ -1170,28 +1170,53 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "KeyFromTextReleased"
+                                "value": "BuiltinCommonInstructions::Or"
                               },
-                              "parameters": [
-                                "",
-                                "keyboardInteract"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                              },
-                              "parameters": []
-                            },
-                            {
-                              "type": {
-                                "value": "NumberObjectVariable"
-                              },
-                              "parameters": [
-                                "NPC",
-                                "hasSpoken",
-                                "=",
-                                "1"
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::And"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyFromTextReleased"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "keyboardInteract"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
+                                      },
+                                      "parameters": []
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "NPC",
+                                        "hasSpoken",
+                                        "=",
+                                        "1"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "KeyPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "q"
+                                  ]
+                                }
                               ]
                             },
                             {
@@ -1460,10 +1485,10 @@
                             "TutorialGate",
                             "Tween",
                             "\"TutorialGate\"",
-                            "-400",
+                            "-278",
                             "\"linear\"",
                             "1.8",
-                            "yes"
+                            "no"
                           ]
                         }
                       ]
