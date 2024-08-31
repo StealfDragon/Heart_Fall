@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1376210832997909,
+    "zoomFactor": 0.16244272268880194,
     "windowMask": false
   },
   "objectsGroups": [
@@ -520,23 +520,6 @@
       "x": 8654,
       "y": 2332,
       "zOrder": 100030,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 67,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BonePlatform",
-      "persistentUuid": "7132ea62-040e-4045-8c16-4aa2a66c58b0",
-      "width": 150,
-      "x": 8780,
-      "y": 2605,
-      "zOrder": 100031,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -19417,7 +19400,7 @@
                                   },
                                   "parameters": [
                                     "",
-                                    "Johnathan_So-MechaCollection.ogg",
+                                    "Heart Fall Boss Theme.ogg",
                                     "100",
                                     "yes",
                                     "80",

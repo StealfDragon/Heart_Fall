@@ -14419,6 +14419,16 @@
         "name": "GUIMain3",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Heart Fall Boss Theme.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Heart Fall Boss Theme.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
