@@ -593,7 +593,7 @@
                           },
                           "parameters": [
                             "",
-                            "NewBitmapText",
+                            "Chest_Interact_Prompt",
                             "Chest.X()-15",
                             "Chest.Y()-110",
                             ""
@@ -644,53 +644,7 @@
                             "value": "Montre"
                           },
                           "parameters": [
-                            "NewBitmapText",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "KeyFromTextPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "keyboardInteract"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Animation",
-                            "=",
-                            "\"Open\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "NewBitmapText"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Chest",
-                            "Opened",
-                            "True",
+                            "Chest_Interact_Prompt",
                             ""
                           ]
                         }
@@ -701,66 +655,188 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "StringObjectVariable"
+                                "value": "KeyFromTextPressed"
                               },
                               "parameters": [
-                                "Chest",
-                                "Contains",
-                                "=",
-                                "\"Health\""
+                                "",
+                                "keyboardInteract"
                               ]
                             }
                           ],
                           "actions": [
                             {
                               "type": {
-                                "value": "SetNumberObjectVariable"
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Hero",
-                                "heroMaxHP",
-                                "+",
-                                "25"
+                                "Chest",
+                                "Animation",
+                                "=",
+                                "\"Open\""
                               ]
                             },
                             {
                               "type": {
-                                "value": "SetNumberObjectVariable"
+                                "value": "Cache"
                               },
                               "parameters": [
-                                "Hero",
-                                "heroHP",
-                                "+",
-                                "25"
+                                "Chest_Interact_Prompt"
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
+                            },
                             {
                               "type": {
-                                "value": "StringObjectVariable"
+                                "value": "EffectCapability::EffectBehavior::EnableEffect"
                               },
                               "parameters": [
                                 "Chest",
-                                "Contains",
-                                "=",
-                                "\"Damage\""
+                                "Effect",
+                                "\"White Outline\"",
+                                "no"
                               ]
                             }
                           ],
-                          "actions": [
+                          "events": [
                             {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Hero",
-                                "heroDMG",
-                                "+",
-                                "25"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Chest",
+                                    "Contains",
+                                    "=",
+                                    "\"Health\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Chest",
+                                    "Opened",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "heroMaxHP",
+                                    "+",
+                                    "20"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "heroHP",
+                                    "+",
+                                    "20"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Chest_Health_Text",
+                                    "Chest.X()-20",
+                                    "Chest.Y()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                                  },
+                                  "parameters": [
+                                    "Chest_Health_Text",
+                                    "Tween",
+                                    "\"HealthTextUp\"",
+                                    "Chest.Y()-50",
+                                    "\"easeOutExpo\"",
+                                    "1.5",
+                                    "yes"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Chest",
+                                    "Contains",
+                                    "=",
+                                    "\"Damage\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Chest",
+                                    "Opened",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "heroDMG",
+                                    "+",
+                                    "10"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Chest_Damage_Text",
+                                    "Chest.X()-20",
+                                    "Chest.Y()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                                  },
+                                  "parameters": [
+                                    "Chest_Damage_Text",
+                                    "Tween",
+                                    "\"HealthTextUp\"",
+                                    "Chest.Y()-50",
+                                    "\"easeOutExpo\"",
+                                    "1.5",
+                                    "yes"
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -803,7 +879,7 @@
                         "value": "Cache"
                       },
                       "parameters": [
-                        "NewBitmapText"
+                        "Chest_Interact_Prompt"
                       ]
                     }
                   ]
