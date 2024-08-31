@@ -61,6 +61,35 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "UnarmoredHero",
+                "Animation",
+                "!=",
+                "\"Idle\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "UnarmoredHero",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,

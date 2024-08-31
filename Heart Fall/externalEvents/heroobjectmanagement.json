@@ -38,6 +38,17 @@
                 "12",
                 "90"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "UnarmoredHero",
+                "HeroHitbox",
+                "-48",
+                "90"
+              ]
             }
           ]
         }
