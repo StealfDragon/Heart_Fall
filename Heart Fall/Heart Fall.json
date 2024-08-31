@@ -14401,6 +14401,24 @@
         "name": "GearOverlay-1.png.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GUIMain2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GUIMain2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GUIMain3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GUIMain3",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

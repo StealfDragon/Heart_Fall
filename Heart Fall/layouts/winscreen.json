@@ -58,11 +58,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 130,
+      "height": 33,
       "layer": "",
       "name": "NextSteps",
       "persistentUuid": "9c4d30d2-1a74-42cb-9881-686fde41bdb6",
-      "width": 810,
+      "width": 875,
       "x": 235,
       "y": 280,
       "zOrder": 3,
@@ -133,7 +133,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Press c to continue to next level of the run\n\nOR\n\nPress m to return to the main menu",
+        "text": "Press the space bar to return to the main menu",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -392,7 +392,7 @@
           },
           "parameters": [
             "",
-            "m"
+            "Space"
           ]
         },
         {
@@ -410,38 +410,6 @@
           "parameters": [
             "",
             "\"Title\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "c"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Stage\"",
             ""
           ]
         }

@@ -223,7 +223,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Press c to continue to next level of the run\n\nOR\n\nPress m to return to the main menu",
+        "text": "Press the space bar to return to the main menu",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -342,39 +342,7 @@
           },
           "parameters": [
             "",
-            "c"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Stage\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "m"
+            "Space"
           ]
         },
         {
