@@ -278,6 +278,15 @@
                     "\"opacity\"",
                     "clamp(BW, 0, 1)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GameOverScreen\""
+                  ]
                 }
               ]
             }

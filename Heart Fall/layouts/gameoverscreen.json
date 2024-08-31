@@ -69,7 +69,7 @@
       "persistentUuid": "3a923d34-6992-420f-bfdc-f0bdb38843e2",
       "width": 580,
       "x": 350,
-      "y": 450,
+      "y": 480,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -77,15 +77,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
       "keepRatio": true,
       "layer": "",
       "name": "NextSteps",
       "persistentUuid": "32fb5b9a-ce32-47e6-a727-64cc79906f66",
-      "width": 0,
-      "x": 238,
-      "y": 550,
+      "width": 865,
+      "x": 208,
+      "y": 611,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -316,7 +317,7 @@
             "=",
             "SceneWindowWidth()/2",
             "=",
-            "SceneWindowHeight()/2 - 150"
+            "SceneWindowHeight()/2 - 125"
           ]
         },
         {
