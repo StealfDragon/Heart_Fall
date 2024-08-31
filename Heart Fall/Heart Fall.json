@@ -13534,7 +13534,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____.png\"}",
         "name": "_____",
         "smoothed": false,
         "userAdded": true
@@ -13543,7 +13543,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____2.png\"}",
         "name": "_____2",
         "smoothed": false,
         "userAdded": true
@@ -13552,7 +13552,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____3.png\"}",
         "name": "_____3",
         "smoothed": false,
         "userAdded": true
@@ -13561,7 +13561,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____4.png\"}",
         "name": "_____4",
         "smoothed": false,
         "userAdded": true
@@ -13570,7 +13570,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____5.png\"}",
         "name": "_____5",
         "smoothed": false,
         "userAdded": true
@@ -13579,7 +13579,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____6.png\"}",
         "name": "_____6",
         "smoothed": false,
         "userAdded": true
@@ -13588,7 +13588,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____7.png\"}",
         "name": "_____7",
         "smoothed": false,
         "userAdded": true
@@ -13597,7 +13597,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____8.png\"}",
         "name": "_____8",
         "smoothed": false,
         "userAdded": true
@@ -13606,7 +13606,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____9.png\"}",
         "name": "_____9",
         "smoothed": false,
         "userAdded": true
@@ -13615,7 +13615,7 @@
         "alwaysLoaded": false,
         "file": "assets/_____10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/_____10.png\"}",
         "name": "_____10",
         "smoothed": false,
         "userAdded": true
@@ -13983,7 +13983,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk94.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk94.png\"}",
         "name": "Walk94",
         "smoothed": false,
         "userAdded": true
@@ -13992,7 +13992,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk95.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk95.png\"}",
         "name": "Walk95",
         "smoothed": false,
         "userAdded": true
@@ -14001,7 +14001,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk96.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk96.png\"}",
         "name": "Walk96",
         "smoothed": false,
         "userAdded": true
@@ -14010,7 +14010,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk97.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk97.png\"}",
         "name": "Walk97",
         "smoothed": false,
         "userAdded": true
@@ -14019,7 +14019,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk98.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk98.png\"}",
         "name": "Walk98",
         "smoothed": false,
         "userAdded": true
@@ -14028,7 +14028,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk99.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk99.png\"}",
         "name": "Walk99",
         "smoothed": false,
         "userAdded": true
@@ -14037,7 +14037,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk100.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk100.png\"}",
         "name": "Walk100",
         "smoothed": false,
         "userAdded": true
@@ -14046,7 +14046,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk101.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk101.png\"}",
         "name": "Walk101",
         "smoothed": false,
         "userAdded": true
@@ -14055,7 +14055,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk102.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk102.png\"}",
         "name": "Walk102",
         "smoothed": false,
         "userAdded": true
@@ -14064,8 +14064,341 @@
         "alwaysLoaded": false,
         "file": "assets/Walk103.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk103.png\"}",
         "name": "Walk103",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "GateSprite.tmj",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "GateSprite.tmj",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Close10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close11.png\"}",
+        "name": "Close11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close12.png\"}",
+        "name": "Close12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close13.png\"}",
+        "name": "Close13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close14.png\"}",
+        "name": "Close14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close15.png\"}",
+        "name": "Close15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close16.png\"}",
+        "name": "Close16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close17.png\"}",
+        "name": "Close17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close18.png\"}",
+        "name": "Close18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close19.png\"}",
+        "name": "Close19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close20.png\"}",
+        "name": "Close20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close21.png\"}",
+        "name": "Close21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close22.png\"}",
+        "name": "Close22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close23.png\"}",
+        "name": "Close23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close24.png\"}",
+        "name": "Close24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close25.png\"}",
+        "name": "Close25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close26.png\"}",
+        "name": "Close26",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close27.png\"}",
+        "name": "Close27",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close28.png\"}",
+        "name": "Close28",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close29.png\"}",
+        "name": "Close29",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close30.png\"}",
+        "name": "Close30",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Close31.png\"}",
+        "name": "Close31",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/New sound effect.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 2\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":80,\\\"decay\\\":0.33,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":2100,\\\"frequencySweep\\\":-2000,\\\"frequencyDeltaSweep\\\":-2600,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"pinknoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":1,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1.1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "New sound effect",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ur,pin_large_front,square,600x600.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ur,pin_large_front,square,600x600.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ur,pin_large_front,square,600x600.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ur,pin_large_front,square,600x600",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite752.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite752.png\"}",
+        "name": "NewSprite752",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GearOverlay-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GearOverlay-1.png.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -14190,8 +14523,8 @@
     },
     {
       "name": "Cutscene",
-      "type": "string",
-      "value": "0"
+      "type": "number",
+      "value": 0
     },
     {
       "name": "GameState",
@@ -14210,7 +14543,7 @@
         {
           "name": "Lives",
           "type": "string",
-          "value": "3"
+          "value": "1"
         }
       ]
     },

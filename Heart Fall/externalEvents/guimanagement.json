@@ -47,6 +47,39 @@
                 "=",
                 "GUIHealthBar.Width()"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Sword",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "GearOverlay",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "GearBitmapText",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -140,46 +173,6 @@
                 "GUIStaminaBar",
                 "=",
                 "floor(GUIStaminaBar.DefaultWidth * Hero.heroStam / Hero.heroMaxStam / 4) * 4"
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Lives",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "The Lives are displayed via a text object that, GUILivesLabel.\nThis text object is updated to the current amount of lives stored as a global variable."
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "BitmapText::BitmapTextObject::SetText"
-              },
-              "parameters": [
-                "GUIBitmapLives",
-                "=",
-                "\"LIVES: \" + GameState.Lives"
               ]
             }
           ]
