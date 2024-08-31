@@ -17,6 +17,17 @@
           "conditions": [
             {
               "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "NPC",
+                "hasGivenGear",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -521,6 +532,35 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Hero",
+                    "heroFSM",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "NPC",
+                    "hasGivenGear",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [

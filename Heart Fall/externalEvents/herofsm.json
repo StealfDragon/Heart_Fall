@@ -866,7 +866,18 @@
                       "parameters": [
                         "HeroHitbox",
                         "NPC",
-                        "150",
+                        "250",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "NPC",
+                        "hasOpenedGate",
+                        "False",
                         ""
                       ]
                     }
@@ -902,6 +913,36 @@
                           "parameters": [
                             "InteractBitmapText",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Animation",
+                            "=",
+                            "\"Wave\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Animation",
+                            "=",
+                            "\"Idle1\""
                           ]
                         }
                       ]
@@ -1058,7 +1099,7 @@
                                 "",
                                 "\"Typewriter\"",
                                 ">=",
-                                "0.05"
+                                "0.03"
                               ]
                             }
                           ],
@@ -1183,6 +1224,17 @@
                           "actions": [
                             {
                               "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "NPC",
+                                "Animation",
+                                "=",
+                                "\"Open\""
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "Wait"
                               },
                               "parameters": [
@@ -1244,10 +1296,32 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Animation",
+                            "=",
+                            "\"Close\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
-                            "3"
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "NPC",
+                            "Animation",
+                            "=",
+                            "\"Idle1\""
                           ]
                         },
                         {
@@ -1258,7 +1332,7 @@
                             "HeroHitbox",
                             "PlatformerObject",
                             "=",
-                            "600"
+                            "550"
                           ]
                         },
                         {
@@ -1271,11 +1345,125 @@
                         },
                         {
                           "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Sword",
+                            "Tween",
+                            "\"SwordOpacity\"",
+                            "255",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "GearOverlay",
+                            "Tween",
+                            "\"OverlayOpacity\"",
+                            "255",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "GearBitmapText",
+                            "Tween",
+                            "\"TextOpacity\"",
+                            "255",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Montre"
                           },
                           "parameters": [
                             "Hero",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Sword",
+                            "Tween",
+                            "\"SwordOpacity\"",
+                            "0",
+                            "\"linear\"",
+                            "0.5",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "GearOverlay",
+                            "Tween",
+                            "\"OverlayOpacity\"",
+                            "0",
+                            "\"linear\"",
+                            "0.5",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "GearBitmapText",
+                            "Tween",
+                            "\"TextOpacity\"",
+                            "0",
+                            "\"linear\"",
+                            "0.5",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "TutorialGate",
+                            "Tween",
+                            "\"TutorialGate\"",
+                            "-400",
+                            "\"linear\"",
+                            "1.8",
+                            "yes"
                           ]
                         }
                       ]
